@@ -14,7 +14,7 @@ Special thanks to @SanaaHamel, @TubaToothpasties, @Blamm, @Backslash for all the
 - 11x M3x12mm BHCS (7 of these are made for SHCS, but bhcs will work for easier sourcing)
 - 4x M3x25mm SHCS
 - 1x M3 Hex Nut
-- 18x Heat Inserts
+- 24x Heat Inserts
 
 ## Electronics & Wiring
 - 1x Raspberry Pi Pico W
@@ -30,6 +30,7 @@ Special thanks to @SanaaHamel, @TubaToothpasties, @Blamm, @Backslash for all the
 
 ## Extras
 - 1x 250mm round acrylic sheet, 3 or 4mm thick
+- 1 meter of 3mm foam cord (neoprene or silicone foam cord works well, shore a <=0, shore 00 <=50. 
 - 1x Pneumatic Bowden Fitting M10
 - 2x HEPA filters (130x40 mm, same as Xiaomi Mijia G1)
 - Heat shrink tubing suitable for AWG26/28
