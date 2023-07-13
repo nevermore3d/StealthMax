@@ -12,7 +12,7 @@ Special thanks to @SanaaHamel, @TubaToothpasties, @Blamm, @Backslash for all the
 - 2x M3x8mm BHCS (could possibly be m3x6 with plenty of loctite; for the main lid latch)
 - 5x M3x10mm BHCS or SHCS
 - 11x M3x12mm BHCS (7 of these are made for SHCS, but bhcs will work for easier sourcing)
-- 1x m3x16
+- 1x m3x16 SHCS
 - 6x M3x25mm SHCS
 - 1x M3 Hex Nut
 - 24x Heat Inserts
