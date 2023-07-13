@@ -8,9 +8,9 @@ Special thanks to @SanaaHamel, @TubaToothpasties, @Blamm, @Backslash for all the
 
 ## Nuts and Bolts
 - 7x M2x4mm Flatheads (<=0.8mm head height, but not too wide as to avoid interfering with pico pins)
-- 16x M3x6mm BHCS (ball driver will be needed to install a few of these, as straight-down access is not always possible)
+- 18x M3x6mm BHCS (ball driver will be needed to install a few of these, as straight-down access is not always possible)
 - 2x M3x8mm BHCS (could possibly be m3x6 with plenty of loctite; for the main lid latch)
-- 7x M3x10mm BHCS or SHCS
+- 5x M3x10mm BHCS or SHCS
 - 11x M3x12mm BHCS (7 of these are made for SHCS, but bhcs will work for easier sourcing)
 - 1x m3x16
 - 6x M3x25mm SHCS
