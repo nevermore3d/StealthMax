@@ -38,6 +38,9 @@ Special thanks to @SanaaHamel, @TubaToothpasties, @Blamm, @Backslash for all the
 - **1x M3x16 SHCS**
     - 1x Air Exhaust Wheel
  
+- **2x M3x20 SHCS**
+    - 2x Mounting
+ 
 - **4x M3x25 SHCS**
     - 2x Lid Front Hinge
     - 2x Mounting
