@@ -13,6 +13,8 @@ Special thanks to @SanaaHamel, @TubaToothpasties, @Blamm, @Backslash for all the
 
 1x [Mateksys 6-30V Buck Converter](https://s.click.aliexpress.com/e/_oEkrGWR) (Supplies 5v to the pico from the 12v dc input)
 
+1M x [BLACK](https://s.click.aliexpress.com/e/_DCBnSol) **OR** [WHITE](https://s.click.aliexpress.com/e/_DnnezK9)) 3MM foam cord seal, shore A <=0.
+
 ## Nuts and Bolts
 *Note:*<br>
 *This list is missing screws for mounting of SGP40, BME280, Mateksys Buck Converter and the remaining connectors!*<br>
