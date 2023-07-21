@@ -11,6 +11,8 @@ Special thanks to @SanaaHamel, @TubaToothpasties, @Blamm, @Backslash for all the
 
 2 x [BME280](https://s.click.aliexpress.com/e/_DCjWhgZ) Temp/Humidity sensor in the correct dimensions 
 
+1x [Mateksys 6-30V Buck Converter](https://s.click.aliexpress.com/e/_oEkrGWR) (Supplies 5v to the pico from the 12v dc input)
+
 ## Nuts and Bolts
 *Note:*<br>
 *This list is missing screws for mounting of SGP40, BME280, Mateksys Buck Converter and the remaining connectors!*<br>
