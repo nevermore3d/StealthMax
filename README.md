@@ -15,6 +15,8 @@ Special thanks to @SanaaHamel, @TubaToothpasties, @Blamm, @Backslash for all the
 
 1M x [BLACK](https://s.click.aliexpress.com/e/_DCBnSol) **OR** [WHITE](https://s.click.aliexpress.com/e/_DnnezK9)) 3MM foam cord seal, shore A <=0.
 
+1 x [Pi Pico W](https://s.click.aliexpress.com/e/_okun5yX). The "W" version is needed for bluetooth printer communication, while the non-w needs to be connected by an additional physical USB connection (not yet supported in software). Pre-soldered pins recommended for increased simplicity for most users. 
+
 ## Nuts and Bolts
 *Note:*<br>
 *This list is missing screws for mounting of SGP40, BME280, Mateksys Buck Converter and the remaining connectors!*<br>
