@@ -6,6 +6,10 @@ STLs exported. Check out the first version software bluetooth controller with kl
 
 Special thanks to @SanaaHamel, @TubaToothpasties, @Blamm, @Backslash for all the help, nudges, support and additions to the project!
 
+## Electronics links
+2 x SPG40 sensor in the correct dimensions: [SPG40]](https://s.click.aliexpress.com/e/_DE5jOTT)
+2 x BME280 Temp/Humidity sensor: [BME280](https://s.click.aliexpress.com/e/_DCjWhgZ)]
+
 ## Nuts and Bolts
 *Note:*<br>
 *This list is missing screws for mounting of SGP40, BME280, Mateksys Buck Converter and the remaining connectors!*<br>
