@@ -6,11 +6,29 @@ STLs exported. Check out the first version software bluetooth controller with kl
 
 Special thanks to @SanaaHamel, @TubaToothpasties, @Blamm, @Backslash for all the help, nudges, support and additions to the project!
 
+## Electronics links
+2 x [SPG40](https://s.click.aliexpress.com/e/_DE5jOTT) sensor in the correct dimensions
+
+2 x [BME280](https://s.click.aliexpress.com/e/_DCjWhgZ) Temp/Humidity sensor in the correct dimensions 
+
+1x [Mateksys 6-30V Buck Converter](https://s.click.aliexpress.com/e/_oEkrGWR) (Supplies 5v to the pico from the 12v dc input)
+
+1M x [BLACK](https://s.click.aliexpress.com/e/_DCBnSol) **OR** [WHITE](https://s.click.aliexpress.com/e/_DnnezK9)) 3MM foam cord seal, shore A <=0.
+
+1 x [Pi Pico W](https://s.click.aliexpress.com/e/_okun5yX). The "W" version is needed for bluetooth printer communication, while the non-w needs to be connected by an additional physical USB connection (not yet supported in software). Pre-soldered pins recommended for increased simplicity for most users. 
+
 ## Nuts and Bolts
 *Note:*<br>
 *This list is missing screws for mounting of SGP40, BME280, Mateksys Buck Converter and the remaining connectors!*<br>
 *A ball driver will be needed to install some of these.*<br>
- 
+
+>Purchase link for bolts from single store/freight cost:
+>1. [m3xall_sizes SHCS](https://s.click.aliexpress.com/e/_DkxhzGZ)
+>2. [m2x4mm FHCS bolts](https://s.click.aliexpress.com/e/_Dd3ZxlT) 
+>3. [m3x6mm BHCS](https://s.click.aliexpress.com/e/_DduS2Vn) these can be used instead of m3x6 shcs everywhere, but not the other way around
+>4. [m3xD5xH4 inserts](https://s.click.aliexpress.com/e/_DeVF8rT)
+
+Bolts specified:
 - **7x M2x4 FHCS**
     - 3x Fan
     - 4x RPi PICO
@@ -18,6 +36,7 @@ Special thanks to @SanaaHamel, @TubaToothpasties, @Blamm, @Backslash for all the
 - **10x M3x6 BHCS**
     - 8x Main and Flow Chamber Connection
     - 2x Basket Lid
+   
  
 - **4x M3x12 BHCS**
     - 4x Main and Flow Chamber Connection
