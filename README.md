@@ -7,8 +7,9 @@ STLs exported. Check out the first version software bluetooth controller with kl
 Special thanks to @SanaaHamel, @TubaToothpasties, @Blamm, @Backslash for all the help, nudges, support and additions to the project!
 
 ## Electronics links
-2 x SPG40 sensor in the correct dimensions: [SPG40]](https://s.click.aliexpress.com/e/_DE5jOTT)
-2 x BME280 Temp/Humidity sensor: [BME280](https://s.click.aliexpress.com/e/_DCjWhgZ)]
+2 x [SPG40](https://s.click.aliexpress.com/e/_DE5jOTT) sensor in the correct dimensions
+
+2 x [BME280](https://s.click.aliexpress.com/e/_DCjWhgZ) Temp/Humidity sensor in the correct dimensions 
 
 ## Nuts and Bolts
 *Note:*<br>
