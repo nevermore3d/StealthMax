@@ -90,5 +90,5 @@ Bolts specified:
 - 1x 250mm round acrylic sheet, 3mm thick (or 4mm thick, s. [Parametric Lid](Parametric_Lid_stealthmax.f3d))
 - 1 meter of 3mm foam cord (neoprene or silicone foam cord works well, shore a <=0, shore 00 <=50. 
 - 1x Pneumatic Bowden Fitting M10
-- 2x HEPA filters (130x40 mm, same as Xiaomi Mijia G1)
+- 2x [HEPA filters, for Xiaomi Mijia G1](https://s.click.aliexpress.com/e/_EGPsFBt)
 - Heat shrink tubing suitable for AWG26/28
