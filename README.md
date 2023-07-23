@@ -6,50 +6,65 @@ STLs exported. Check out the first version software bluetooth controller with kl
 
 Special thanks to @SanaaHamel, @TubaToothpasties, @Blamm, @Backslash for all the help, nudges, support and additions to the project!
 
-## Electronics links
-2 x [SPG40](https://s.click.aliexpress.com/e/_DE5jOTT) sensor in the correct dimensions
+# Bill of Materials and Sourcing Guide
+## Things to buy
+This is a list of all the required parts.<br>We do not recommend the listed sellers or their products, and we are not related to them in any way.<br>You may use different sellers or source everything elsewhere.<br>Before ordering, please make sure you covered the details for sourcing in the next section!
+|                      | Amount                                            | Part                                                                                           | Source                                                                                                                                     |
+| ----                 | ----:                                             | ----                                                                                           | :----:                                                                                                                                     |
+| **Electronics**      |  1 pc                                             | DELTA BFB0712HF 65mm GPU fan                                                                   | [OneTwo3D](https://www.onetwo3d.co.uk/product/nevermore-bfb0712hf-65mm-fan/)                                                               |
+|                      |  2 pcs                                            | BME280 *<sup>1</sup>*                                                                          | [AliExpress](https://s.click.aliexpress.com/e/_DCjWhgZ)                                                                                    |
+|                      |  2 pcs                                            | SGP40 *<sup>2</sup>*                                                                           | [AliExpress](https://s.click.aliexpress.com/e/_DE5jOTT)                                                                                    |
+|                      |  1 pc                                             | Mateksys 6-30V Buck Converter *<sup>3</sup>*                                                   | [AliExpress](https://s.click.aliexpress.com/e/_oEkrGWR)                                                                                    |
+|                      |  1 pc                                             | Raspberry Pi Pico W *<sup>4</sup>*                                                             | [AliExpress](https://s.click.aliexpress.com/e/_okun5yX)                                                                                    |
+| **Fasteners**        |  7 pcs                                            | M2x4 SHCS                                                                                      | [AliExpress](https://s.click.aliexpress.com/e/_Dd3ZxlT)                                                                                    |
+|                      | 18 pcs<br>4 pcs                                   | M3x6 BHCS<br>M3x12 BHCS                                                                        | [AliExpress](https://s.click.aliexpress.com/e/_DduS2Vn)                                                                                    |
+|                      | 2 pcs<br>4 pcs<br>7 pcs<br>1 pc<br>2 pcs<br>4 pcs | M3x8 SHCS<br>M3x10 SHCS *<sup>5</sup>*<br>M3x12 SHCS<br>M3x16 SHCS<br>M3x20 SHCS<br>M3x25 SHCS | [AliExpress](https://s.click.aliexpress.com/e/_DkxhzGZ)                                                                                    |
+|                      |  1 pc                                             | M3 Hex Nut                                                                                     |                                                                                                                                            |
+|                      | 24 pcs                                            | M3xD5.0xL4.0 Heat Set Inserts                                                                  | [AliExpress](https://s.click.aliexpress.com/e/_DeVF8rT)                                                                                    |
+| **Filtration**       |  2 l                                              | Carbon                                                                                         | [Fabreeko](https://www.fabreeko.com/products/nevermore-carbon?variant=43205733482751)                                                      |
+|                      |  2 pcs                                            | HEPA filters (for Xiaomi Mijia G1)                                                             | [AliExpress](https://s.click.aliexpress.com/e/_EGPsFBt)                                                                                    |
+| **Fittings**         |  1 pc                                             | PC4-M10 Pneumatic Fitting                                                                      |                                                                                                                                            |
+| **Sealing**          |  1 pc                                             | 250x3mm round acrylic panel *<sup>6</sup>*                                                     |                                                                                                                                            |
+|                      |  1 m                                              | 3mm sponge cord *<sup>7</sup>*                                                                 | [AliExpress](https://s.click.aliexpress.com/e/_DCBnSol) (black)<br>*or*<br>[AliExpress](https://s.click.aliexpress.com/e/_DnnezK9) (white) |
+| **Wiring**           |  1 pc                                             | M10 threaded DC connector                                                                      | [AliExpress](https://www.aliexpress.com/item/33001103693.html?spm=a2g0o.order_list.order_list_main.89.50ea1802RQAeZj)                      |
+|                      |  1 pc                                             | pre-wired 6-pin 1.25mm pitch JST connector (1x Male, 1x Female)                                |                                                                                                                                            |
+|                      |  2 pcs                                            | pre-wired 4-pin 1.25mm pitch JST connector (1x Male, 1x Female)                                |                                                                                                                                            |
+|                      |  1 pc                                             | JST-PH 4-pin male GPU fan connector                                                            |                                                                                                                                            |
+|                      |  30 cm                                            | AWG26 (0.14 mm²) cable *<sup>8</sup>*                                                          |                                                                                                                                            |
+|                      |                                                   | Heat shrink tubing (for AWG26)                                                                 |                                                                                                                                            |
 
-2 x [BME280](https://s.click.aliexpress.com/e/_DCjWhgZ) Temp/Humidity sensor in the correct dimensions 
 
-1x [Mateksys 6-30V Buck Converter](https://s.click.aliexpress.com/e/_oEkrGWR) (Supplies 5v to the pico from the 12v dc input)
+*<sup>1</sup>*  Temperature and humidity sensor in the correct dimensions<br>
+*<sup>2</sup>*  VOC sensor in the correct dimensions<br>
+*<sup>3</sup>*  Supplies 5 VDC to the Raspberry Pi Pico from the 12 VDC input<br>
+*<sup>4</sup>*  The "W" version is needed for bluetooth printer communication, while the non-W needs to be connected by an additional physical USB connection (not yet supported in software). Pre-soldered pins recommended for increased simplicity for most users.<br>
+*<sup>5</sup>*  Must use BHCS if using CPAP Tupe Intake<br>
+*<sup>6</sup>*  May use 4mm thick panel, s. [Parametric Lid](Parametric_Lid_stealthmax.f3d)<br>
+*<sup>7</sup>*  Shore A <=0<br>
+*<sup>8</sup>*  25 cm between DC connector and buck converter and 5 cm between buck converter and fan connector
 
-1M x [BLACK](https://s.click.aliexpress.com/e/_DCBnSol) **OR** [WHITE](https://s.click.aliexpress.com/e/_DnnezK9)) 3MM foam cord seal, shore A <=0.
-
-1 x [Pi Pico W](https://s.click.aliexpress.com/e/_okun5yX). The "W" version is needed for bluetooth printer communication, while the non-w needs to be connected by an additional physical USB connection (not yet supported in software). Pre-soldered pins recommended for increased simplicity for most users. 
-
-## Nuts and Bolts
+## Fasteners broken down
 *Note:*<br>
-*This list is missing screws for mounting of SGP40, BME280, Mateksys Buck Converter and the remaining connectors!*<br>
+*This list is missing fasteners for mounting of SGP40, BME280, Mateksys Buck Converter and the remaining connectors!*<br>
 *A ball driver will be needed to install some of these.*<br>
-
->Purchase link for bolts from single store/freight cost:
->1. [m3xall_sizes SHCS](https://s.click.aliexpress.com/e/_DkxhzGZ)
->2. [m2x4mm FHCS bolts](https://s.click.aliexpress.com/e/_Dd3ZxlT) 
->3. [m3x6mm BHCS](https://s.click.aliexpress.com/e/_DduS2Vn) these can be used instead of m3x6 shcs everywhere, but not the other way around
->4. [m3xD5xH4 inserts](https://s.click.aliexpress.com/e/_DeVF8rT)
-
-Bolts specified:
 - **7x M2x4 FHCS**
     - 3x Fan
-    - 4x RPi PICO
+    - 4x Raspberry Pi Pico
  
-- **10x M3x6 BHCS**
+- **18x M3x6 BHCS**
     - 8x Main and Flow Chamber Connection
+    - 6x Lid Latches *(may use SHCS)*
+    - 2x Lid Front Hinge *(may use SHCS)*
     - 2x Basket Lid
    
- 
 - **4x M3x12 BHCS**
     - 4x Main and Flow Chamber Connection
- 
-- **8x M3x6 SHCS**
-    - 6x Lid Latches
-    - 2x Lid Front Hinge
  
 - **2x M3x8 SHCS**
     - 2x Mounting
  
 - **4x M3x10 SHCS**
-    - 4x Mounting
+    - 4x Mounting *(must use BHCS if using CPAP Tupe Intake)*
  
 - **7x M3x12 SHCS**
     - 7x Mounting
@@ -73,22 +88,3 @@ Bolts specified:
     - 2x Basket
     - 2x Lid Front Hinge
     - 2x Mounting
-
-## Electronics & Wiring
-- 1x Raspberry Pi Pico W
-- 2x SGP40 sensors (small kind, single m3)
-- 2x BME280 sensors (small kind, single m3)
-- 1x Mateksys 6-30V voltage regulator
-- 1x M10 threaded DC connector
-- 1x pre-wired 6-pin 1.25mm pitch JST connector (1x Male, 1x Female)
-- 2x pre-wired 4-pin 1.25mm pitch JST connector (1x Male, 1x Female)
-- 1x JST-PH 4-pin male GPU fan connector
-- 30cm AWG26 (0.14mm²) cable (12V/GND), of which 25cm between DC connector and Mateksys, and 5cm between Mateksys and fan connector
-- 1x 65mm GPU fan (BFB0712HF)
-
-## Extras
-- 1x 250mm round acrylic sheet, 3mm thick (or 4mm thick, s. [Parametric Lid](Parametric_Lid_stealthmax.f3d))
-- 1 meter of 3mm foam cord (neoprene or silicone foam cord works well, shore a <=0, shore 00 <=50. 
-- 1x Pneumatic Bowden Fitting M10
-- 2x [HEPA filters, for Xiaomi Mijia G1](https://s.click.aliexpress.com/e/_EGPsFBt)
-- Heat shrink tubing suitable for AWG26/28
