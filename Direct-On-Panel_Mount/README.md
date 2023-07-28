@@ -7,8 +7,8 @@
 Try these modded files. They replace the files with the same numbers from the regular STL directory. 
 
 ## Things to buy to mod your panel of choice)?
-- A **40mm hole saw** drill (and a drill)
-- A **3mm drill bit** (and a drill). A 2mm one to pre-drill for the hole saw can help but not an absolute prerequisite.
+- A **[40mm hole saw](https://s.click.aliexpress.com/e/_oEo5amR)** drill (and a drill)
+- A **[3mm drill bit](https://s.click.aliexpress.com/e/_onEwfxl)** (and a drill). A 2mm one to pre-drill for the hole saw can help but not an absolute prerequisite.
 
 ## Quick Guide
 * The new 2-Flow chamber comes with print-in-place drill-aims! You can not miss! You dont need to be able to measure with sub-mm precision. Just put the Flow Chamber on the panel, tape it down where it should be; point and...
