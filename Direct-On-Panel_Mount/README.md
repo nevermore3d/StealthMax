@@ -4,7 +4,7 @@
 
 Try these modded files. They replace the files with the same numbers from the regular STL directory. 
 
-Whats needed to mod your panel (3mm required, 2-4m will work without modding the screw pieces)?
+Whats needed to mod your panel (3mm recommended, 2-4mm will work without modding the screw pieces)?
 - A 40mm hole saw drill (and a drill)
 - A 3mm drill bit (and a drill). A 2mm one to pre-drill for the hole saw can help but not an absolute prerequisite.
 
