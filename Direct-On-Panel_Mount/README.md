@@ -3,8 +3,11 @@
 * Don't have a Voron back panel cutout?
 * Want to be able to install a Stealthmax on any surface?
 * Don't want to order custom laser cut panels and be able to mod the panels easily DIY style?
+* Try these modded files. They replace the files with the same numbers from the regular STL directory. 
 
-Try these modded files. They replace the files with the same numbers from the regular STL directory. 
+![Panel_Mount_1](./1.png)
+
+![Panel_Mount_2](./2.png)
 
 ## Things to buy to mod your panel of choice)?
 - A **[40mm hole saw](https://s.click.aliexpress.com/e/_oEo5amR)** drill (and a drill)
