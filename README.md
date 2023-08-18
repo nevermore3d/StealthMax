@@ -2,7 +2,7 @@
 
 # StealthMax
 
-A non-warp Nevermore Max Frame. Smaller, less parts/assembly, easier sourcing. Uses standard bolts, easily available GPU fan (BFB0712HF, Nevermore branded version here: https://www.onetwo3d.co.uk/product/nevermore-bfb0712hf-65mm-fan/), and adds an optional exhaust option. The HEPA filter has moved into the center hub in order to shrink the overall size (now uses Xiaomi Mijia G1 130x40mm hepa filters).
+A non-warp Nevermore Max Frame. Smaller, less parts/assembly, easier sourcing. Uses standard bolts, easily available GPU fan (BFB0712HF, [Nevermore branded version here](https://www.onetwo3d.co.uk/product/nevermore-bfb0712hf-65mm-fan/), and adds an optional exhaust option. The HEPA filter has moved into the center hub in order to shrink the overall size (now uses Xiaomi Mijia G1 130x40mm hepa filters).
 ![StealthMax](./StealthMax.png)
 STLs exported. Check out the first version software bluetooth controller with klipper integration [@ SanaaHamel/nevermore-controller](https://github.com/SanaaHamel/nevermore-controller).
 
@@ -10,7 +10,7 @@ Special thanks to @SanaaHamel, @TubaToothpasties, @Blamm, @Backslash for all the
 
 # Bill of Materials and Sourcing Guide
 ## Things to buy
-This is a list of all the required parts.<br>We do not recommend the listed sellers or their products, and we are not related to them in any way.<br>You may use different sellers or source everything elsewhere.<br>Before ordering, please make sure you covered the details for sourcing in the next section!
+This is a list of all the required parts. The links below to aliexpress on this page are **affiliate links** that will share a few per cent of the sales price with the nevermore project at no additional cost to the user, we'd be thrilled if you use them!<br>Feel free to source everything elsewhere to your custom desires, or go the comfortable route and try the awesome [Stealthmax Kit by OneTwo3d](https://www.onetwo3d.co.uk/product/nevermore-stealthmax-filter-kit/), containing everything thats needed including two XL bags of Nevermore Carbon.<br><br>Before placing any orders, please make sure you covered the details for sourcing in the next section!
 |                      | Amount                                            | Part                                                                                           | Source                                                                                                                                     |
 | ----                 | ----:                                             | ----                                                                                           | :----:                                                                                                                                     |
 | **Electronics**      |  1 pc                                             | DELTA BFB0712HF 65mm GPU fan                                                                   | [OneTwo3D](https://www.onetwo3d.co.uk/product/nevermore-bfb0712hf-65mm-fan/)                                                               |
@@ -36,8 +36,8 @@ This is a list of all the required parts.<br>We do not recommend the listed sell
 |                      |                                                   | Heat shrink tubing (for AWG26)                                                                 |                                                                                                                                            |
 
 
-*<sup>1</sup>*  Temperature and humidity sensor in the correct dimensions<br>
-*<sup>2</sup>*  VOC sensor in the correct dimensions<br>
+*<sup>1</sup>*  Temperature and humidity sensor in the correct dimensions (10.5mm * 13.5mm, single m3 bolt)<br>
+*<sup>2</sup>*  VOC sensor in the correct dimensions (10.5mm * 13.5mm, single m3 bolt)<br>
 *<sup>3</sup>*  Supplies 5 VDC to the Raspberry Pi Pico from the 12 VDC input<br>
 *<sup>4</sup>*  The "W" version is needed for bluetooth printer communication, while the non-W needs to be connected by an additional physical USB connection (not yet supported in software). Pre-soldered pins recommended for increased simplicity for most users.<br>
 *<sup>5</sup>*  Must use BHCS if using CPAP Tupe Intake<br>
