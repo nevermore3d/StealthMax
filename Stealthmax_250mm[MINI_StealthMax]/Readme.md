@@ -1,6 +1,6 @@
 Hey! Welcome to **tiny Stealthmax**!
 
-Lets decrease size a bit shall we? At about 20% smaller than a regular Stealthmax, lots of changes have been done.
+Lets decrease size a bit shall we, in order to print the Stealthmax on machines with a 250mm bed? At about 20% smaller than a regular Stealthmax, lots of changes have been done.
 
 **Note:** This is a shrunken stealthmax and should as of yet only be considered an early beta. It has not been thoroughly test printed or assembled (although mounting pieces have been tested and shown to work, and other parts like lid and latch pieces retain the same size, and thus are known to work from the regular release).
 
