@@ -9,3 +9,8 @@ Lets decrease size a bit shall we, in order to print the Stealthmax on machines 
 - Mounting points for VOC sensors has changed compared to the regular stealthmax.
 - **Hepa filters** have been changed to smaller [**Xiaomi Mijia 1C circular HEPA filters**](https://s.click.aliexpress.com/e/_EwnZuLl), which means the total carbon depth (equaling efficiency) of the filter has not decreased more than a bit over one centimeter compared to the original Stealthmax.
 - Most everything else remains the same from the regular BOM, including sensors, pico, buck converter, with just a few minor bolt changes and three extra inserts.
+
+Heres how the smaller version compares to the larger:
+![StealthMax](./StealthMax_Size_Comparison.png)
+
+![StealthMax](./SM25_exhaustmount.png)
