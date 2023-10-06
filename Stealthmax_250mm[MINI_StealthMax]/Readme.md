@@ -1,10 +1,10 @@
-Hey! Welcome to **tiny Stealthmax**!
+# **Stealthmax [S]**
 
-Lets decrease size a bit shall we, in order to print the Stealthmax on machines with a 250mm bed? At about 20% smaller than a regular Stealthmax, lots of changes have been done.
+Lets decrease size a bit shall we, in order to print the Stealthmax on machines with a 250mm bed? 
 
-**Note:** This is a shrunken stealthmax and should as of yet only be considered an early beta. It has not been thoroughly test printed or assembled (although mounting pieces have been tested and shown to work, and other parts like lid and latch pieces retain the same size, and thus are known to work from the regular release).
+**StealthMax [S]** is what we end up with - reworked from the ground up, its both 20% [**S**]maller than a regular Stealthmax, as well as much more [**S**]ilent due to the smaller, lower noise fan. See BOM below (purchase links linked on the main page).
 
-- The 65mm GPU Fan has been swapped for a [**60mm Delta KFB0612HAFDB**](https://www.digikey.com/en/products/detail/delta-electronics/KFB0612HAFDB/9974259). It has less air flow at 9.15cfm unrestricted, but on the other hand is much less noisy. The unrestrictive nature of a stealthmax circular basket also allows for much more usable airflow from this fan compared to a smaller filter design.
+- The 65mm GPU Fan has been swapped for a [**60mm Delta KFB0612HAFDB**](https://www.onetwo3d.co.uk/product/delta-kfb0612hafdb-fan/) It has less air flow at 9.15cfm unrestricted, but on the other hand is much less noisy. The unrestrictive nature of a stealthmax circular basket also allows for much more usable airflow from this fan compared to a smaller filter design.
 - The panel has shrunken to **200mm @ 3mm** thickness.
 - Mounting points for VOC sensors has changed compared to the regular stealthmax.
 - **Hepa filters** have been changed to smaller [**Xiaomi Mijia 1C circular HEPA filters**](https://s.click.aliexpress.com/e/_EwnZuLl), which means the total carbon depth (equaling efficiency) of the filter has not decreased more than a bit over one centimeter compared to the original Stealthmax.
