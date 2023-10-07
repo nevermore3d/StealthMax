@@ -2,7 +2,7 @@
 
 Note: As of yet unknown efficiency - print for feedback or improvements (within Creative Commons Attribution) to make this addon as awesome as possible!
 
-![StealthMax_PCO_Combo.png](./Photocatalytic_Addon/StealthMax_PCO_Combo.png)
+![StealthMax_PCO_Combo.png](./StealthMax_PCO_Combo.png)
 
 # **PCO Filtration Addon: A Sun-Inspired Solution for Cleaner Air**
 
