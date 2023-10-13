@@ -30,6 +30,8 @@ The PCO addon can operate even between prints to counteract styrene residue from
 As the chamber’s temperature rises, the efficiency of carbon diminishes. Approximately at 60°C, carbon filtration becomes suboptimal. Conversely, photocatalytic reactivity benefits from the heat energy in the air, positioning the PCO addon as an excellent strategy to conserve carbon by allowing it to cool off while utilizing the heat to eliminate VOCs photocatalytically!
 
 # BOM and Materials for an Alpha unit
+
+Note: These are affiliate links. Please use them to support the project at no additional cost. Or don't - that's up to you!
 |                      | Amount                                            | Part                                                                                           | Source                                                                                                                                     |
 | ----                 | ----:                                             | ----                                                                                           | :----:                                                                                                                                     |
 | **Electronics**      |  2 pc                                             | 14520 275nnm UVC LED (2.5 or 6W)                                                                   | [AliExpress](https://s.click.aliexpress.com/e/_DDsC6F1)                                                               |
