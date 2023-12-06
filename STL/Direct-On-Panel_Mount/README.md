@@ -25,3 +25,6 @@
 
 
   **Note** - compared to the regular BOM, this variant **adds a heat insert** on the back side below the center exhaust, and requires **an additional m3x10** (or 12, but then the main chamber side corresponding bolts needs to be 10mm instead of 12). The two 25mm m3 bolts that usually mounts the stealthmax to an extrusion will likely be a tad short (only 2mm will extend through a 3mm panel, on to which **28mm bolts** would be more suitable. I would shorten a m3x30, or use the 3mm drill again to make sure two m3x30 doesnt bottom out in the in-chamber-exhaust piece.
+
+  **Voron V2.4 / Moving Gantry Users:** Remember if a gantry is moving along the panel chamber side, the printed intake screws stick out 5mm and will interfere - top panel mounting is the only option here! The panel mount
+ will work on any side or top panel on a printer with a moving bed system.
