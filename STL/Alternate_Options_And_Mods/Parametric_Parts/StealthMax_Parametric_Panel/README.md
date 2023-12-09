@@ -1,3 +1,5 @@
+**Parametric exhaust fitting by Rock217**
+
 This is a parametric clone of the default voron exhaust fitting for use on panels of thicknesses larger than 4mm. If you wish to use this, instead of printing "4-Voron_Chamber_Connection_and_Exhaust.stl", print one "Voron_Exhaust_fitting" with the desired panel thickness, and one each of the stls in "Voron_Chamber_Connection_and_Exhaust".
 
 If you wish to use a panel thickness not supplied, simply open "Voron_Exhaust_Fitting_Parametric.f3d" and modify the "panel_thickness" parameter.
