@@ -35,7 +35,7 @@ This is a list of all the required parts. The links to items on this page are **
 |                      |  1 pc                                             | JST-PH 4-pin male GPU fan connector                                                            | [AliExpress](https://s.click.aliexpress.com/e/_DklkchV)                                                                                    |
 |                      |  30 cm                                            | AWG26 (0.14 mm²) cable *<sup>8</sup>*                                                          |                                                                                                                                            |
 |                      |                                                   | Heat shrink tubing (for AWG26)                                                                 |                                                                                                                                            |
-
+**NOTE: A power source to the stealthmax is not included in the BOM. You would either need a spare 12v power adapter (at least 1A, preferable >=1.5A) or a single dc male plug to run 12v wires (why no the same awg26 as the bom) to your 12v source (usually a voltage selectable fan port in your printer electronics).**
 
 *<sup>1</sup>*  Temperature and humidity sensor in the correct dimensions (10.5mm * 13.5mm, single m3 bolt)<br>
 *<sup>2</sup>*  VOC sensor in the correct dimensions (10.5mm * 13.5mm, single m3 bolt)<br>
