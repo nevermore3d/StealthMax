@@ -28,7 +28,10 @@ Lets decrease size a bit shall we, in order to print the Stealthmax on machines 
 **4x** M3x25 SHCS
 
 
-31x M3 4mm[H] x 5mm[OD] heat inserts
+33x M3 4mm[H] x 5mm[OD] heat inserts
+
+Thanks to [Exerqtor](https://github.com/Exerqtor) for the latest flow chamber tweaks, adding two additional inserts improving assembly! 
+
 
 Heres how the smaller version compares to the larger:
 ![StealthMax](./StealthMax_Size_Comparison.png)
