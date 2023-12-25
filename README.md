@@ -20,10 +20,10 @@ This is a list of all the required parts. The links to items on this page are **
 |                      |  1 pc                                             | Mateksys 6-30V Buck Converter *<sup>3</sup>*                                                   | [AliExpress](https://s.click.aliexpress.com/e/_oEkrGWR)                                                                                    |
 |                      |  1 pc                                             | Raspberry Pi Pico W *<sup>4</sup>*                                                             | [AliExpress](https://s.click.aliexpress.com/e/_okun5yX)                                                                                    |
 | **Fasteners**        |  7 pcs                                            | M2x4 FHCS                                                                                      | [AliExpress](https://s.click.aliexpress.com/e/_Dd3ZxlT)                                                                                    |
-|                      | 18 pcs<br>4 pcs                                   | M3x6 BHCS<br>M3x12 BHCS                                                                        | [AliExpress](https://s.click.aliexpress.com/e/_DduS2Vn)                                                                                    |
+|                      | 22 pcs<br>                                  | M3x6 BHCS                                                                      | [AliExpress](https://s.click.aliexpress.com/e/_DduS2Vn)                                                                                    |
 |                      | 2 pcs<br>4 pcs<br>7 pcs<br>1 pc<br>2 pcs<br>4 pcs | M3x8 SHCS<br>M3x10 SHCS *<sup>5</sup>*<br>M3x12 SHCS<br>M3x16 SHCS<br>M3x20 SHCS<br>M3x25 SHCS | [AliExpress](https://s.click.aliexpress.com/e/_DkxhzGZ)                                                                                    |
 |                      |  1 pc                                             | M3 Hex Nut                                                                                     |                                                                                                                                            |
-|                      | 24 pcs                                            | M3xD5.0xL4.0 Heat Set Inserts                                                                  | [AliExpress](https://s.click.aliexpress.com/e/_DeVF8rT)                                                                                    |
+|                      | 28 pcs                                            | M3xD5.0xL4.0 Heat Set Inserts                                                                  | [AliExpress](https://s.click.aliexpress.com/e/_DeVF8rT)                                                                                    |
 | **Filtration**       |  2 l                                              | Carbon                                                                                         | [Fabreeko](https://www.fabreeko.com/products/nevermore-carbon?variant=43205733482751)                                                      |
 |                      |  2 pcs                                            | HEPA filters (for Xiaomi Mijia G1)                                                             | [AliExpress](https://s.click.aliexpress.com/e/_EGPsFBt)                                                                                    |
 | **Fittings**         |  1 pc                                             | PC4-M10 Pneumatic Fitting                                                                      |                                                                                                                                            |
@@ -54,14 +54,11 @@ This is a list of all the required parts. The links to items on this page are **
     - 3x Fan
     - 4x Raspberry Pi Pico
  
-- **18x M3x6 BHCS**
-    - 8x Main and Flow Chamber Connection
+- **22x M3x6 BHCS**
+    - 12x Main and Flow Chamber Connection
     - 6x Lid Latches *(may use SHCS)*
     - 2x Lid Front Hinge *(may use SHCS)*
     - 2x Basket Lid
-   
-- **4x M3x12 BHCS**
-    - 4x Main and Flow Chamber Connection
  
 - **2x M3x8 SHCS**
     - 2x Mounting
@@ -85,8 +82,8 @@ This is a list of all the required parts. The links to items on this page are **
 - **1x M3 Hex Nut**
     - 1x Sensor Latch
 
-- **24x M3x5x4 Heat Set Insert**
-    - 12x Flow Chamber
+- **28x M3x5x4 Heat Set Insert**
+    - 16x Flow Chamber
     - 6x Main Chamber
     - 2x Basket
     - 2x Lid Front Hinge
