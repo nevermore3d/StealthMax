@@ -33,7 +33,7 @@ This is a list of all the required parts. The links to items on this page are **
 |                      |  1 pc                                             | pre-wired 6-pin 1.25mm pitch JST connector (1x Male, 1x Female)                                | [AliExpress](https://s.click.aliexpress.com/e/_mL6z69Y)                                                                                    |
 |                      |  2 pcs                                            | pre-wired 4-pin 1.25mm pitch JST connector (1x Male, 1x Female)                                | [AliExpress](https://s.click.aliexpress.com/e/_mL6z69Y)                                                                                    |     
 |                      |  1 pc                                             | JST-PH 4-pin male GPU fan connector                                                            | [AliExpress](https://s.click.aliexpress.com/e/_DklkchV)                                                                                    |
-|                      |  30 cm                                            | AWG26 (0.14 mm²) cable *<sup>8</sup>*                                                          |                                                                                                                                            |
+|                      |  30 cm                                            | AWG26 2-conductor (0.14 mm²) cable, or two separate 30cm wires *<sup>8</sup>*                  |                                                                                                                                            |
 |                      |                                                   | Heat shrink tubing (for AWG26)                                                                 |                                                                                                                                            |
 **NOTE: A power source to the stealthmax is not included in the BOM. You would either need a spare 12v power adapter (at least 1A, preferable >=1.5A) or a single dc male plug to run 12v wires (why no the same awg26 as the bom) to your 12v source (usually a voltage selectable fan port in your printer electronics).**
 
@@ -44,7 +44,7 @@ This is a list of all the required parts. The links to items on this page are **
 *<sup>5</sup>*  Must use BHCS if using CPAP Tupe Intake<br>
 *<sup>6</sup>*  May use 4mm thick panel, s. [Parametric Lid](Parametric_Lid_stealthmax.f3d)<br>
 *<sup>7</sup>*  Shore A <=0<br>
-*<sup>8</sup>*  25 cm between DC connector and buck converter and 5 cm between buck converter and fan connector
+*<sup>8</sup>*  25 cm 2-wire (12V/GND) between DC connector and buck converter and 5 cm between buck converter and fan connector
 
 ## Fasteners broken down
 *Note:*<br>
