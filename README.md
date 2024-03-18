@@ -90,4 +90,4 @@ This is a list of all the required parts. The links to items on this page are **
     - 2x Mounting
 
       ![StealthMax](./SM_PROMO_small.png)
-      ![StealthMax](./SM_builds_small.png)
+      ![StealthMax](./showroom_small.png)
