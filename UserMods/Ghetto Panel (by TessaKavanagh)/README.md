@@ -1,0 +1,1 @@
+A printed alternative to the acrylic panel used in the lid.

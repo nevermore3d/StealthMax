@@ -1,0 +1,1 @@
+A parametric version of the default [Exhaust Pipe](/STLs/0_Mount/0b_DirectOnPanelMount/0b.2_ExhaustPipe_DOPM.stl) for panels thicker than 3mm.
