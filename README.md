@@ -1,93 +1,193 @@
-[![Support Nevermore3D - Buy me a coffee](https://img.shields.io/badge/Support%20Nevermore3D%20-Buy%20me%20a%20coffee-orange.svg)](https://www.buymeacoffee.com/nevermore3d)
 
-# StealthMax
-
-A non-warp Nevermore Max Frame. Smaller, less parts/assembly, easier sourcing. Uses standard bolts, easily available GPU fan (BFB0712HF, Nevermore branded version [HERE](https://www.onetwo3d.co.uk/product/nevermore-bfb0712hf-65mm-fan/?wpam_id=2)(UK), [HERE](https://www.replimat.eu/nevermore-bfb0712hf-fan-65mm/rt10136)(DE) and [HERE](https://kb-3d.com/store/fans/983-nevermore-65mm-blower-cage-fan-for-stealthmax-1694204852771.html)(US). It also supports the [Sanyo C70](https://products.sanyodenki.com/en/sanace/dc/centrifugal-fan/9TD12P6G001/) (requires printing the casing pieces mirrored as it spins the opposite direction). <BR>Compared to the regular Max v2 beta, Stealthmax also adds an exhaust option (handy for keeping the chamber cool for PLA or PETG). The HEPA filter has moved into the center hub in order to shrink the overall size (now uses Xiaomi Mijia G1 130x40mm hepa filters).<BR><BR>
-So far theres no official build guide, so please check out a) the CAD file that has every bolt, nook and cranny, b) the wiring guide on the [nevermore controller](https://github.com/SanaaHamel/nevermore-controller) github, and c) the [Nevermore Discord server](https://discord.gg/H8tZ9fZVQ4) for any additional questions regarding your build or software. 
 ![StealthMax](./StealthMax.png)
-STLs exported. Check out the first version software bluetooth controller with klipper integration [@ SanaaHamel/nevermore-controller](https://github.com/SanaaHamel/nevermore-controller).
 
+# Nevermore StealthMax
+The Nevermore StealthMax is an air filter developed for 3D printers.
+With its activated carbon and HEPA filtration, it aims to capture harmful fumes and unpleasant odors generated when melting plastics, creating a safer and more pleasant environment for makers.
+
+[
+![Buy Me a Coffee](https://img.shields.io/badge/Support_Nevermore3D-grey?style=flat-square&logo=buymeacoffee&logoColor=black&label=Buy%20Me%20a%20Coffee&labelColor=FFDD00)](https://www.buymeacoffee.com/nevermore3d) [![Discord](https://img.shields.io/discord/1017933489779245137?style=flat-square&logo=discord&logoColor=white&label=Discord&labelColor=%237785cc&color=grey&link=https%3A%2F%2Fdiscord.gg%2FH8tZ9fZVQ4)](https://discord.gg/H8tZ9fZVQ4)
+
+# Table of Contents
+1. [About](#1-about)<br>
+	.1 [Nevermore3D](#11-nevermore3d)<br>
+	.2 [StealthMax](#12-stealthmax)<br>
+	.3 [Volatile Organic Compounds (VOCs)](#13-volatile-organic-compounds-vocs)
+	
+2. [Getting Started](#2-getting-started)<br>
+	.1 [Overview](#21-overview)<br>
+	.2 [Documentation](#22-documentation)
+
+3. [Bill of Materials (BOM) and Sourcing Guide](#3-bill-of-materials-and-sourcing-guide)<br>
+	.1 [StealthMax Kits](#31-stealthmax-kits)<br>
+	.2 [Self Sourcing (BOM)](#32-self-sourcing-bom)
+
+4. [Contributing](#4-contributing)<br>
+5. [Acknowledgements](#5-acknowledgments)<br>
+6. [Showroom](#6-showroom)
+
+# (1) About
+
+##  (1.1) Nevermore3D
+Nevermore3D empower the 3D printing community with resources to create their own air filtration systems, promoting a safer and healthier printing environment.
+
+### History
+The project began in 2019 with the [Nevermore Micro](https://github.com/nevermore3d/Nevermore_Micro), a filtration system that has become widely adopted within the Voron community.<br>
+Since then, multiple filtration systems have been developed - with more to come!
+
+[![GitHub Repo stars](https://img.shields.io/github/stars/nevermore3d/Nevermore_Micro?style=flat-square&logo=github&label=Micro)](https://github.com/nevermore3d/Nevermore_Micro)[![](https://img.shields.io/badge/-blue.svg?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAuNTkwODc4IDAuMjUgMTQuODIgMTQuMTYiPgoJPHBhdGggZD0iTSA4IDAuMjUgYSAwLjc1IDAuNzUgMCAwIDEgMC42NzMgMC40MTggbCAxLjg4MiAzLjgxNSBsIDQuMjEgMC42MTIgYSAwLjc1IDAuNzUgMCAwIDEgMC40MTYgMS4yNzkgbCAtMy4wNDYgMi45NyBsIDAuNzE5IDQuMTkyIGEgMC43NTEgMC43NTEgMCAwIDEgLTEuMDg4IDAuNzkxIEwgOCAxMi4zNDcgbCAtMy43NjYgMS45OCBhIDAuNzUgMC43NSAwIDAgMSAtMS4wODggLTAuNzkgbCAwLjcyIC00LjE5NCBMIDAuODE4IDYuMzc0IGEgMC43NSAwLjc1IDAgMCAxIDAuNDE2IC0xLjI4IGwgNC4yMSAtMC42MTEgTCA3LjMyNyAwLjY2OCBBIDAuNzUgMC43NSAwIDAgMSA4IDAuMjUgWiIgZmlsbD0iI2UzYjM0MSIvPgo8L3N2Zz4=)](https://github.com/nevermore3d/Nevermore_Micro/stargazers) [![GitHub Repo stars](https://img.shields.io/github/stars/nevermore3d/StealthMax?style=flat-square&logo=github&label=StealthMax)](#stealthmax)[![](https://img.shields.io/badge/-blue.svg?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAuNTkwODc4IDAuMjUgMTQuODIgMTQuMTYiPgoJPHBhdGggZD0iTSA4IDAuMjUgYSAwLjc1IDAuNzUgMCAwIDEgMC42NzMgMC40MTggbCAxLjg4MiAzLjgxNSBsIDQuMjEgMC42MTIgYSAwLjc1IDAuNzUgMCAwIDEgMC40MTYgMS4yNzkgbCAtMy4wNDYgMi45NyBsIDAuNzE5IDQuMTkyIGEgMC43NTEgMC43NTEgMCAwIDEgLTEuMDg4IDAuNzkxIEwgOCAxMi4zNDcgbCAtMy43NjYgMS45OCBhIDAuNzUgMC43NSAwIDAgMSAtMS4wODggLTAuNzkgbCAwLjcyIC00LjE5NCBMIDAuODE4IDYuMzc0IGEgMC43NSAwLjc1IDAgMCAxIDAuNDE2IC0xLjI4IGwgNC4yMSAtMC42MTEgTCA3LjMyNyAwLjY2OCBBIDAuNzUgMC43NSAwIDAgMSA4IDAuMjUgWiIgZmlsbD0iI2UzYjM0MSIvPgo8L3N2Zz4=)](https://github.com/nevermore3d/StealthMax/stargazers) [![GitHub Repo stars](https://img.shields.io/github/stars/nevermore3d/Nevermore_FLEX?style=flat-square&logo=github&label=Flex&color=lightgrey)](https://github.com/nevermore3d/Nevermore_FLEX)[![](https://img.shields.io/badge/-blue.svg?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAuNTkwODc4IDAuMjUgMTQuODIgMTQuMTYiPgoJPHBhdGggZD0iTSA4IDAuMjUgYSAwLjc1IDAuNzUgMCAwIDEgMC42NzMgMC40MTggbCAxLjg4MiAzLjgxNSBsIDQuMjEgMC42MTIgYSAwLjc1IDAuNzUgMCAwIDEgMC40MTYgMS4yNzkgbCAtMy4wNDYgMi45NyBsIDAuNzE5IDQuMTkyIGEgMC43NTEgMC43NTEgMCAwIDEgLTEuMDg4IDAuNzkxIEwgOCAxMi4zNDcgbCAtMy43NjYgMS45OCBhIDAuNzUgMC43NSAwIDAgMSAtMS4wODggLTAuNzkgbCAwLjcyIC00LjE5NCBMIDAuODE4IDYuMzc0IGEgMC43NSAwLjc1IDAgMCAxIDAuNDE2IC0xLjI4IGwgNC4yMSAtMC42MTEgTCA3LjMyNyAwLjY2OCBBIDAuNzUgMC43NSAwIDAgMSA4IDAuMjUgWiIgZmlsbD0iI2UzYjM0MSIvPgo8L3N2Zz4=&color=lightgrey)](https://github.com/nevermore3d/Nevermore_FLEX/stargazers) [![GitHub Repo stars](https://img.shields.io/github/stars/nevermore3d/Nevermore_Mini?style=flat-square&logo=github&label=Mini&color=lightgrey)](https://github.com/nevermore3d/Nevermore_Mini)[![](https://img.shields.io/badge/-blue.svg?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAuNTkwODc4IDAuMjUgMTQuODIgMTQuMTYiPgoJPHBhdGggZD0iTSA4IDAuMjUgYSAwLjc1IDAuNzUgMCAwIDEgMC42NzMgMC40MTggbCAxLjg4MiAzLjgxNSBsIDQuMjEgMC42MTIgYSAwLjc1IDAuNzUgMCAwIDEgMC40MTYgMS4yNzkgbCAtMy4wNDYgMi45NyBsIDAuNzE5IDQuMTkyIGEgMC43NTEgMC43NTEgMCAwIDEgLTEuMDg4IDAuNzkxIEwgOCAxMi4zNDcgbCAtMy43NjYgMS45OCBhIDAuNzUgMC43NSAwIDAgMSAtMS4wODggLTAuNzkgbCAwLjcyIC00LjE5NCBMIDAuODE4IDYuMzc0IGEgMC43NSAwLjc1IDAgMCAxIDAuNDE2IC0xLjI4IGwgNC4yMSAtMC42MTEgTCA3LjMyNyAwLjY2OCBBIDAuNzUgMC43NSAwIDAgMSA4IDAuMjUgWiIgZmlsbD0iI2UzYjM0MSIvPgo8L3N2Zz4=&color=lightgrey)](https://github.com/nevermore3d/Nevermore_Mini/stargazers) [![GitHub Repo stars](https://img.shields.io/github/stars/nevermore3d/Resin_Filtration?style=flat-square&logo=github&label=Parapet%20Filter%20Tower&color=lightgrey)](https://github.com/nevermore3d/Resin_Filtration/tree/main/Parapet_Filter_Tower)[![](https://img.shields.io/badge/-blue.svg?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAuNTkwODc4IDAuMjUgMTQuODIgMTQuMTYiPgoJPHBhdGggZD0iTSA4IDAuMjUgYSAwLjc1IDAuNzUgMCAwIDEgMC42NzMgMC40MTggbCAxLjg4MiAzLjgxNSBsIDQuMjEgMC42MTIgYSAwLjc1IDAuNzUgMCAwIDEgMC40MTYgMS4yNzkgbCAtMy4wNDYgMi45NyBsIDAuNzE5IDQuMTkyIGEgMC43NTEgMC43NTEgMCAwIDEgLTEuMDg4IDAuNzkxIEwgOCAxMi4zNDcgbCAtMy43NjYgMS45OCBhIDAuNzUgMC43NSAwIDAgMSAtMS4wODggLTAuNzkgbCAwLjcyIC00LjE5NCBMIDAuODE4IDYuMzc0IGEgMC43NSAwLjc1IDAgMCAxIDAuNDE2IC0xLjI4IGwgNC4yMSAtMC42MTEgTCA3LjMyNyAwLjY2OCBBIDAuNzUgMC43NSAwIDAgMSA4IDAuMjUgWiIgZmlsbD0iI2UzYjM0MSIvPgo8L3N2Zz4=&color=lightgrey)](https://github.com/nevermore3d/Resin_Filtration/stargazers) [![GitHub Repo stars](https://img.shields.io/github/stars/nevermore3d/RatPack?style=flat-square&logo=github&label=RatPack&color=lightgrey)](https://github.com/nevermore3d/RatPack)[![](https://img.shields.io/badge/-blue.svg?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAuNTkwODc4IDAuMjUgMTQuODIgMTQuMTYiPgoJPHBhdGggZD0iTSA4IDAuMjUgYSAwLjc1IDAuNzUgMCAwIDEgMC42NzMgMC40MTggbCAxLjg4MiAzLjgxNSBsIDQuMjEgMC42MTIgYSAwLjc1IDAuNzUgMCAwIDEgMC40MTYgMS4yNzkgbCAtMy4wNDYgMi45NyBsIDAuNzE5IDQuMTkyIGEgMC43NTEgMC43NTEgMCAwIDEgLTEuMDg4IDAuNzkxIEwgOCAxMi4zNDcgbCAtMy43NjYgMS45OCBhIDAuNzUgMC43NSAwIDAgMSAtMS4wODggLTAuNzkgbCAwLjcyIC00LjE5NCBMIDAuODE4IDYuMzc0IGEgMC43NSAwLjc1IDAgMCAxIDAuNDE2IC0xLjI4IGwgNC4yMSAtMC42MTEgTCA3LjMyNyAwLjY2OCBBIDAuNzUgMC43NSAwIDAgMSA4IDAuMjUgWiIgZmlsbD0iI2UzYjM0MSIvPgo8L3N2Zz4=&color=lightgrey)](https://github.com/nevermore3d/RatPack/stargazers)
+
+### Nevermore Carbon and other Filtration Media
+When users reported issues of oxidizing and damaging their printers due to bad carbon, we set out to find the most suitable carbon for 3D printing.<br>
+After consulting leading suppliers, Nevermore3D now offers its own premium carbon of unmatched specifications through selected [resellers](https://github.com/nevermore3d/Reseller).<br>
+While it may cost more than bulk options, Nevermore Carbon is safe to use in 3D printing environments, offers unbeatable effectiveness and every purchase directly contributes to the ongoing development of the Nevermore3D project.
+
+#### Nevermore Carbon
+-   Highly micro-porous and laboratory tested premium activated carbon, from a major European manufacturer
+-   Market-leading VOC adsorption fine tuned for _aromatic hydrocarbons emitted during 3D printing_ such as styrene, benzaldehyde, toluene, benzene, etc. [**CTC >=80**, benzene adsorption capacity up to **0.48g/g**]
+-   Market-leading surface area (storage capacity) of **1250m2/g**!
+-   Vacuum packed for minimal dust generation during shipping.
+-   Vacuum dedusted during the packaging process for immediate use in 3d printers
+-   Available in Regular (750ml, 0.33kg) and XL (2300ml, 1kg)
+
+#### Nevermore Scorch
+-   Zeolite-based, highly microporous adsorption medium, enhanced with potassium permanganate (KMnO4).
+-   Chemically transform printer VOC toxins like styrene – a major VOC in ABS and ASA filaments – into harmless potassium benzoate (food additive).
+-   The process is not harmed by high chamber temps, but accelerated, making Nevermore Scorch ideal for heated 3D printer chambers!
+-   Colour changes from bright purple to a dullish gray as it is being spent, giving a visual indication of when it is time to swap filter media!
+-   Available in Regular (750ml, 0.66kg) and XL (2300ml, 2kg)
+
+#### Nevermore Mix
+-   Pre-prepared 50/50 mix of Nevermore Carbon and Nevermore Scorch; a less-hassle, best-of-both-worlds printer filtration
+-   Combining the long-life och stellar adsorption capacity of activated carbon with Nevermore Scorch performance in hot surroundings.
+-   Ideal for most users with enclosed 3d printers printing ABS/ASA/PETG/PC in chamber temps of 50C +-10C.
+
+#### Nevermore HEPA
+-   Nevermore HEPA Filters
+
+## (1.2) StealthMax
+The Nevermore StealthMax improves upon the [Nevermore Max](https://github.com/nevermore3d/Nevermore_Max) with a more warp-resistant frame, smaller size, optional exhaust for cooler printing, and easier assembly.
+
+With its 2-liter carbon basket, it can hold 20 times as much carbon as the Nevermore Micro, and thanks to its innovative dual filtration design, the StealthMax allows for recirculation of filtered air within an enclosed printer to both maintain chamber temperature and further improve filtration efficiency and longevity.
+
+#### Dual Filtration
+The StealthMax does not make any compromises and utilizes activated carbon and HEPA filtration:
+
+-   **HEPA (High Efficiency Particulate Air) filter:** This type of filter is effective at capturing particles, which are particles less than 100 nanometers in diameter. These particles can be harmful if inhaled, so a HEPA filter can help to improve air quality in your printing space.
+    
+-   **Activated carbon filter:** This type of filter is designed to absorb volatile organic compounds (VOCs). VOCs are gases emitted during 3D printing, and they can cause irritation to the eyes, nose, and throat. An activated carbon filter can help to reduce odors and improve air quality.
+
+#### Recirculation
+The StealthMax and your printer's enclosure function as a closed-loop system, enabling air to recirculate through the filter multiple times. 
+This results in a significantly higher capture rate of harmful particles compared to a single-pass exhaust filter.<br>
+The effectiveness of this process is diminished if the enclosure has leaks, however, opening the exhaust slider creates a slight negative pressure inside the enclosure, thus drawing air in through leaks and maximizing the StealthMax's filtration potential.
+
+#### StealthMax S (250)
+Making safer printing more accessible, the StealthMax S was designed for printing on a 250x250mm bed.<br>
+Despite its compact size, the StealthMax S retains impressive filtering capacity thanks to its 1.4-liter carbon basket as well as the benefits of dual filtration.
+
+## (1.3) Volatile Organic Compounds (VOCs)
+When 3D printing, especially with certain types of materials like plastics, various [volatile organic compounds (VOCs)](https://en.wikipedia.org/wiki/Volatile_organic_compound) can be emitted. The specific VOCs produced can vary depending on the type of filament or resin used and the printing conditions. Some common VOCs emitted during 3D printing include:
+
+-  **Styrene**: Commonly emitted when printing with ABS (Acrylonitrile Butadiene Styrene) filament. Styrene exposure has been linked to respiratory issues, irritation of the eyes, nose, and throat, and in some cases, long-term exposure may increase the risk of cancer.
+    
+-  **Formaldehyde**: Often produced during the thermal decomposition of certain plastics, such as PLA (Polylactic Acid). Formaldehyde exposure can cause irritation of the eyes, nose, and throat, as well as respiratory issues. Prolonged exposure to high levels of formaldehyde has been linked to an increased risk of cancer.
+    
+-  **Acetaldehyde**: Another byproduct of thermal decomposition, commonly found in emissions from ABS and PLA printing. Acetaldehyde exposure can cause irritation of the eyes, nose, and throat, and may also affect the central nervous system.
+    
+-  **Acrylonitrile**: Present in emissions from ABS filament, acrylonitrile exposure has been associated with respiratory issues and may increase the risk of certain cancers.
+    
+-  **Ethylene glycol**: Found in emissions from certain types of resins used in stereolithography (SLA) printing, ethylene glycol exposure can cause irritation of the eyes, skin, and respiratory system.
+    
+These VOCs can have various health effects depending on factors such as concentration, duration of exposure, and individual susceptibility. Short-term exposure to high levels of VOCs can cause irritation of the respiratory tract, headaches, dizziness, and nausea. Long-term exposure to certain VOCs has been linked to more serious health effects, including respiratory issues and an increased risk of cancer.
+
+# (2) Getting Started
+
+## (2.1) Overview
+Different printers and use cases require different solutions - choose the StealthMax that fits your needs!
+### Regular StealthMax (300) or StealthMax S (250)?
+The StealthMax comes in two sizes:
+| | Regular StealthMax (300) | StealthMax S (250) |
+| ---| --- | --- |
+| Min. Req. Bed Size | 300x300mm | 250x250mm|
+| Carbon Capacity | 2.0 liters | 1.4 liters |
+| HEPA Filter | HEPA Filter for Xiaomi Mijia G1 | Nevermore HEPA Filter |
+| Fan | Delta BFB0712HF | Delta KFB0612HAFDB |
+
+### Back Panel Mount or Direct On Panel Mount?
+The are two options for mounting a StealthMax to your printer:
+#### Back Panel Mount (BPM)
+The Back Panel Mount is designed to be used with Voron printers (in particular Voron 2 and Trident) by utilizing the back panel's cutout and mounting the StealthMax to the top 2020 extrusion.
+#### Direct On Panel Mount (DOPM)
+Alternatively, the Direct On Panel Mount can be used to mount a StealthMax on pretty much any panel.
+
+### Basic or Smart?
+#### Basic
+Simpler to set up, a sensorless StealthMax only requires a fan and, depending on your setup, no other additional electronics (s. the [BOM](#32-self-sourcing-bom) for more details).
+#### Smart
+Thanks to the [Nevermore Controller](#nevermore-controller), a smart StealthMax utilizes VOC, temperature and humidity sensors to monitor air quality and automatically adjust fan speed.
+
+### Add-ons
+Increase the capability of your StealthMax further and explore our range of add-ons:
+
+#### CPAP
+Moves the intake closer to the hotend by attaching it directly to the gantry, maximizing VOC capture potential.
+
+#### Displays
+Upgrade your StealthMax with a GC9A01 or CST816S display to monitor it's effectiveness at a glance.
+
+#### Photocatalytic Oxidation (PCO) Filtration
+PCO Filtration mimics the sun's natural breakdown of VOCs. Utilizing UVC lights and a TiO2 mesh, it generates hydroxyl radicals to dismantle VOCs into harmless compounds. This method enhances efficiency by addressing stubborn VOCs, maintains cleanliness between prints, and adapts to heat conditions for optimal performance.
+
+### User Mods
+Find clever solutions and unique customizations with our collection of [User Mods](/UserMods) contributed by fellow community members.
+
+## (2.2) Documentation
+### Manual
+soon(tm)
+
+### Print Guide
+Our interactive [Print Guide](https://bit.ly/NevermoreStealthMaxPrintGuide) helps you find the parts you need to print and lets you download all the required STL files at once.
+
+### Nevermore Controller
+A Raspberry Pi Pico W based controller for the Nevermore3D family of 3D printer filters. Compatible with Klipper, it offers automatic fan control and leverages Bluetooth LE technology to reduce wiring needs and allow for multiple device connections.
+
+# (3) Bill of Materials and Sourcing Guide
+
+**Important Note:** <br>
+The StealthMax Kits and Bill of Materials (BOM) do not include a power source.<br>
+You will need to choose between one of the following options:
+-   A 12V power supply unit (PSU) with a minimum rating of 1.5 Amps.
+-   Utilize a voltage-selectable fan port on your printer's electronics (if available).
+
+## (3.1) StealthMax Kits
+For those who value convenience and simplicity, kits eliminate the guesswork and ensure you have everything you need.
+| Kit | StealthMax Size | Sources |  |  |  |
+|---|---|---|---|---|---|
+| Basic | 350 (Regular) | ![UK](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/gb.png "UK") [OneTwo3D](https://www.onetwo3d.co.uk/product/nevermore-stealthmax-filter-kit-basic/?wpam_id=2)![](https://img.shields.io/badge/-rgba(0%2C%200%2C%200%2C%20%200).svg?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAuNTkwODc4IDAuMjUgMTQuODIgMTQuMTYiPgoJPHBhdGggZD0iTSA4IDAuMjUgYSAwLjc1IDAuNzUgMCAwIDEgMC42NzMgMC40MTggbCAxLjg4MiAzLjgxNSBsIDQuMjEgMC42MTIgYSAwLjc1IDAuNzUgMCAwIDEgMC40MTYgMS4yNzkgbCAtMy4wNDYgMi45NyBsIDAuNzE5IDQuMTkyIGEgMC43NTEgMC43NTEgMCAwIDEgLTEuMDg4IDAuNzkxIEwgOCAxMi4zNDcgbCAtMy43NjYgMS45OCBhIDAuNzUgMC43NSAwIDAgMSAtMS4wODggLTAuNzkgbCAwLjcyIC00LjE5NCBMIDAuODE4IDYuMzc0IGEgMC43NSAwLjc1IDAgMCAxIDAuNDE2IC0xLjI4IGwgNC4yMSAtMC42MTEgTCA3LjMyNyAwLjY2OCBBIDAuNzUgMC43NSAwIDAgMSA4IDAuMjUgWiIgZmlsbD0iI2UzYjM0MSIvPgo8L3N2Zz4=) |  |  |  |
+| Basic S | 250 (S) | ![UK](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/gb.png "UK") [OneTwo3D](https://www.onetwo3d.co.uk/product/nevermore-stealthmax-filter-s-kit-basic/?wpam_id=2)![](https://img.shields.io/badge/-rgba(0%2C%200%2C%200%2C%20%200).svg?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAuNTkwODc4IDAuMjUgMTQuODIgMTQuMTYiPgoJPHBhdGggZD0iTSA4IDAuMjUgYSAwLjc1IDAuNzUgMCAwIDEgMC42NzMgMC40MTggbCAxLjg4MiAzLjgxNSBsIDQuMjEgMC42MTIgYSAwLjc1IDAuNzUgMCAwIDEgMC40MTYgMS4yNzkgbCAtMy4wNDYgMi45NyBsIDAuNzE5IDQuMTkyIGEgMC43NTEgMC43NTEgMCAwIDEgLTEuMDg4IDAuNzkxIEwgOCAxMi4zNDcgbCAtMy43NjYgMS45OCBhIDAuNzUgMC43NSAwIDAgMSAtMS4wODggLTAuNzkgbCAwLjcyIC00LjE5NCBMIDAuODE4IDYuMzc0IGEgMC43NSAwLjc1IDAgMCAxIDAuNDE2IC0xLjI4IGwgNC4yMSAtMC42MTEgTCA3LjMyNyAwLjY2OCBBIDAuNzUgMC43NSAwIDAgMSA4IDAuMjUgWiIgZmlsbD0iI2UzYjM0MSIvPgo8L3N2Zz4=) |  |  |  |
+| Smart | 350 (Regular) | ![UK](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/gb.png "UK") [OneTwo3D](https://www.onetwo3d.co.uk/product/nevermore-stealthmax-filter-kit/?wpam_id=2)![](https://img.shields.io/badge/-rgba(0%2C%200%2C%200%2C%20%200).svg?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAuNTkwODc4IDAuMjUgMTQuODIgMTQuMTYiPgoJPHBhdGggZD0iTSA4IDAuMjUgYSAwLjc1IDAuNzUgMCAwIDEgMC42NzMgMC40MTggbCAxLjg4MiAzLjgxNSBsIDQuMjEgMC42MTIgYSAwLjc1IDAuNzUgMCAwIDEgMC40MTYgMS4yNzkgbCAtMy4wNDYgMi45NyBsIDAuNzE5IDQuMTkyIGEgMC43NTEgMC43NTEgMCAwIDEgLTEuMDg4IDAuNzkxIEwgOCAxMi4zNDcgbCAtMy43NjYgMS45OCBhIDAuNzUgMC43NSAwIDAgMSAtMS4wODggLTAuNzkgbCAwLjcyIC00LjE5NCBMIDAuODE4IDYuMzc0IGEgMC43NSAwLjc1IDAgMCAxIDAuNDE2IC0xLjI4IGwgNC4yMSAtMC42MTEgTCA3LjMyNyAwLjY2OCBBIDAuNzUgMC43NSAwIDAgMSA4IDAuMjUgWiIgZmlsbD0iI2UzYjM0MSIvPgo8L3N2Zz4=) | ![US](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/us.png "US") [Central 3D Printing](https://central3dprinting.com/products/nevermore-stealthmax-kit?_pos=5&_sid=1a981e3f3&_ss=r) | ![US](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/us.png "US") [Mandala Rose Works](https://mandalaroseworks.com/products/nevermore-stealthmax-hardware-kit?_pos=2&_sid=01b5d81dd&_ss=r&variant=44508025979133) | ![Sweden](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/se.png "Sweden") [3DKATTEN](https://3dkatten.se/en/products/stealthmax-kit?_pos=2&_sid=fafe2628b&_ss=r) |
+| Smart S | 250 (S) | ![UK](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/gb.png "UK") [OneTwo3D](https://www.onetwo3d.co.uk/product/nevermore-stealthmax-s-filter-kit-advanced/?wpam_id=2)![](https://img.shields.io/badge/-rgba(0%2C%200%2C%200%2C%20%200).svg?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAuNTkwODc4IDAuMjUgMTQuODIgMTQuMTYiPgoJPHBhdGggZD0iTSA4IDAuMjUgYSAwLjc1IDAuNzUgMCAwIDEgMC42NzMgMC40MTggbCAxLjg4MiAzLjgxNSBsIDQuMjEgMC42MTIgYSAwLjc1IDAuNzUgMCAwIDEgMC40MTYgMS4yNzkgbCAtMy4wNDYgMi45NyBsIDAuNzE5IDQuMTkyIGEgMC43NTEgMC43NTEgMCAwIDEgLTEuMDg4IDAuNzkxIEwgOCAxMi4zNDcgbCAtMy43NjYgMS45OCBhIDAuNzUgMC43NSAwIDAgMSAtMS4wODggLTAuNzkgbCAwLjcyIC00LjE5NCBMIDAuODE4IDYuMzc0IGEgMC43NSAwLjc1IDAgMCAxIDAuNDE2IC0xLjI4IGwgNC4yMSAtMC42MTEgTCA3LjMyNyAwLjY2OCBBIDAuNzUgMC43NSAwIDAgMSA4IDAuMjUgWiIgZmlsbD0iI2UzYjM0MSIvPgo8L3N2Zz4=) | ![US](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/us.png "US") [Central 3D Printing](https://central3dprinting.com/products/nevermore-stealthmax-s-hardware-kit?_pos=6&_sid=1a981e3f3&_ss=r) | ![US](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/us.png "US") [Mandala Rose Works](https://mandalaroseworks.com/products/nevermore-stealthmax-s-small-hardware-kit?_pos=1&_sid=01b5d81dd&_ss=r&variant=44520877785341) |  |
+| Printed Parts | 350 (Regular) | ![UK](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/gb.png "UK") [JB3D](https://jb3d.uk/product/nevermore-stealthmax/) |  |  |  |
+
+![](https://img.shields.io/badge/-rgba(0%2C%200%2C%200%2C%20%200).svg?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAuNTkwODc4IDAuMjUgMTQuODIgMTQuMTYiPgoJPHBhdGggZD0iTSA4IDAuMjUgYSAwLjc1IDAuNzUgMCAwIDEgMC42NzMgMC40MTggbCAxLjg4MiAzLjgxNSBsIDQuMjEgMC42MTIgYSAwLjc1IDAuNzUgMCAwIDEgMC40MTYgMS4yNzkgbCAtMy4wNDYgMi45NyBsIDAuNzE5IDQuMTkyIGEgMC43NTEgMC43NTEgMCAwIDEgLTEuMDg4IDAuNzkxIEwgOCAxMi4zNDcgbCAtMy43NjYgMS45OCBhIDAuNzUgMC43NSAwIDAgMSAtMS4wODggLTAuNzkgbCAwLjcyIC00LjE5NCBMIDAuODE4IDYuMzc0IGEgMC43NSAwLjc1IDAgMCAxIDAuNDE2IC0xLjI4IGwgNC4yMSAtMC42MTEgTCA3LjMyNyAwLjY2OCBBIDAuNzUgMC43NSAwIDAgMSA4IDAuMjUgWiIgZmlsbD0iI2UzYjM0MSIvPgo8L3N2Zz4=)Affiliate links: may earn the Nevermore3D project a small commission (at no extra cost to you).
+
+## (3.2) Self Sourcing (BOM)
+For those who find satisfaction in the journey, each meticulously sourced component adds to the story of their creation.
+
+See our interactive [Bill of Materials / Sourcing Guide](https://bit.ly/NeveremoreStealthMaxBOM) for a complete list of components.
+
+
+# (4) Contributing
+**We welcome your contributions!** <br>
+Report any difficulties, suggest ideas, propose solutions, and create new designs or enhance existing ones.
+Whether on GitHub or Discord, your input is valued and appreciated!
+
+
+# (5) Acknowledgments
 Special thanks to @SanaaHamel, @TubaToothpasties, @Blamm, @Backslash for all the help, nudges, support and additions to the project!
 
-# Bill of Materials and Sourcing Guide
-## Things to buy
-This is a list of all the required parts. The links to items on this page are **affiliate links** that will share a few per cent of the sales price with the nevermore project at no additional cost to the user, we'd be thrilled if you use them! We do not, however, have any affiliations/contacts with the stores themselves, reach out if there are any bad experiences so we can remove such links.<br><br>Also, do feel free to source everything elsewhere to your custom desires, but before placing any orders, please make sure you covered the details for sourcing in the next section!<br><br> As a final - and most comfortable - sourcing route, feel free to try the awesome [Advanced Stealthmax Kit by OneTwo3d](https://www.onetwo3d.co.uk/product/nevermore-stealthmax-filter-kit/?wpam_id=2), containing everything needed for the stealthmax in one order, including two XL bags of Nevermore Carbon. A [Basic Stealthmax Kit](https://www.onetwo3d.co.uk/product/nevermore-stealthmax-filter-kit-basic/?wpam_id=2) without electronics is now also available.<br>
-|                      | Amount                                            | Part                                                                                           | Source                                                                                                                                     |
-| ----                 | ----:                                             | ----                                                                                           | :----:                                                                                                                                     |
-| **Electronics**      |  1 pc                                             | DELTA BFB0712HF 65mm GPU fan                                                                   | [OneTwo3D](https://www.onetwo3d.co.uk/product/nevermore-bfb0712hf-65mm-fan/?wpam_id=2)<br>[Replimat&nbsp;Labs&nbsp;(Germany,&nbsp;some&nbsp;EU)](https://www.replimat.eu/nevermore-bfb0712hf-fan-65mm/rt10136/)                                                               |
-|                      |  2 pcs                                            | BME280 *<sup>1</sup>*                                                                          | [AliExpress](https://s.click.aliexpress.com/e/_DCjWhgZ)                                                                                    |
-|                      |  2 pcs                                            | SGP40 *<sup>2</sup>*                                                                           | [AliExpress](https://s.click.aliexpress.com/e/_DE5jOTT)                                                                                    |
-|                      |  1 pc                                             | Mateksys 6-30V Buck Converter *<sup>3</sup>*                                                   | [AliExpress](https://s.click.aliexpress.com/e/_oEkrGWR)                                                                                    |
-|                      |  1 pc                                             | Raspberry Pi Pico W *<sup>4</sup>*                                                             | [AliExpress](https://s.click.aliexpress.com/e/_okun5yX)                                                                                    |
-| **Fasteners**        |  7 pcs                                            | M2x4 FHCS                                                                                      | [AliExpress](https://s.click.aliexpress.com/e/_Dd3ZxlT)                                                                                    |
-|                      | 22 pcs<br>                                  | M3x6 BHCS                                                                      | [AliExpress](https://s.click.aliexpress.com/e/_DduS2Vn)                                                                                    |
-|                      | 2 pcs<br>4 pcs<br>7 pcs<br>1 pc<br>2 pcs<br>4 pcs | M3x8 SHCS<br>M3x10 SHCS *<sup>5</sup>*<br>M3x12 SHCS<br>M3x16 SHCS<br>M3x20 SHCS<br>M3x25 SHCS | [AliExpress](https://s.click.aliexpress.com/e/_DkxhzGZ)                                                                                    |
-|                      |  1 pc                                             | M3 Hex Nut                                                                                     |                                                                                                                                            |
-|                      | 28 pcs                                            | M3xD5.0xL4.0 Heat Set Inserts                                                                  | [AliExpress](https://s.click.aliexpress.com/e/_DeVF8rT)                                                                                    |
-| **Filtration**       |  2 l                                              | Carbon                                                                                         | [Fabreeko](https://www.fabreeko.com/products/nevermore-carbon?variant=43205733482751) <br/>[Replimat&nbsp;Labs&nbsp;(Germany,&nbsp;some&nbsp;EU)](https://www.replimat.eu/nevermore-activated-carbon-xl-2300ml/rt10075)                                                     |
-|                      |  2 pcs                                            | HEPA filters (for Xiaomi Mijia G1)                                                             | [AliExpress](https://s.click.aliexpress.com/e/_EGPsFBt)                                                                                    |
-| **Fittings**         |  1 pc                                             | PC4-M10 Pneumatic Fitting                                                                      |                                                                                                                                            |
-| **Sealing**          |  1 pc                                             | 250x3mm round acrylic panel *<sup>6</sup>*                                                     |                                                                                                                                            |
-|                      |  1 m                                              | 3mm sponge cord *<sup>7</sup>*                                                                 | [AliExpress](https://s.click.aliexpress.com/e/_DCBnSol) (black)<br>*or*<br>[AliExpress](https://s.click.aliexpress.com/e/_DnnezK9) (white) |
-| **Wiring**           |  1 pc                                             | M8 threaded DC connector                                                                      | [AliExpress](https://www.aliexpress.com/item/33001103693.html?spm=a2g0o.order_list.order_list_main.89.50ea1802RQAeZj)                      |
-|                      |  1 pc                                             | pre-wired 6-pin 1.25mm pitch JST connector (1x Male, 1x Female)                                | [AliExpress](https://s.click.aliexpress.com/e/_mL6z69Y)                                                                                    |
-|                      |  2 pcs                                            | pre-wired 4-pin 1.25mm pitch JST connector (1x Male, 1x Female)                                | [AliExpress](https://s.click.aliexpress.com/e/_mL6z69Y)                                                                                    |     
-|                      |  1 pc                                             | JST-PH 4-pin male GPU fan connector                                                            | [AliExpress](https://s.click.aliexpress.com/e/_DklkchV)                                                                                    |
-|                      |  30 cm                                            | AWG26 2-conductor (0.14 mm²) cable, or two separate 30cm wires *<sup>8</sup>*                  |                                                                                                                                            |
-|                      |                                                   | Heat shrink tubing (for AWG26)                                                                 |                                                                                                                                            |
-**NOTE: A power source to the stealthmax is not included in the BOM. You would either need a spare 12v power adapter (at least 1A, preferable >=1.5A) or a single dc male plug to run 12v wires (why no the same awg26 as the bom) to your 12v source (usually a voltage selectable fan port in your printer electronics).**
+# (6) Showroom
 
-*<sup>1</sup>*  Temperature and humidity sensor in the correct dimensions (10.5mm * 13.5mm, single m3 bolt)<br>
-*<sup>2</sup>*  VOC sensor in the correct dimensions (10.5mm * 13.5mm, single m3 bolt)<br>
-*<sup>3</sup>*  Supplies 5 VDC to the Raspberry Pi Pico from the 12 VDC input<br>
-*<sup>4</sup>*  The "W" version is needed for bluetooth printer communication, while the non-W needs to be connected by an additional physical USB connection (not yet supported in software). Pre-soldered pins recommended for increased simplicity for most users.<br>
-*<sup>5</sup>*  Must use BHCS if using CPAP Tupe Intake<br>
-*<sup>6</sup>*  May use 4mm thick panel, s. [Parametric Lid](Parametric_Lid_stealthmax.f3d)<br>
-*<sup>7</sup>*  Shore A <=0<br>
-*<sup>8</sup>*  25 cm 2-wire (12V/GND) between DC connector and buck converter and 5 cm between buck converter and fan connector
-
-## Fasteners broken down
-*Note:*<br>
-*This list is missing fasteners for mounting of SGP40, BME280, Mateksys Buck Converter and the remaining connectors!*<br>
-*A ball driver will be needed to install some of these.*<br>
-- **7x M2x4 FHCS**
-    - 3x Fan
-    - 4x Raspberry Pi Pico
- 
-- **22x M3x6 BHCS**
-    - 12x Main and Flow Chamber Connection
-    - 6x Lid Latches *(may use SHCS)*
-    - 2x Lid Front Hinge *(may use SHCS)*
-    - 2x Basket Lid
- 
-- **2x M3x8 SHCS**
-    - 2x Mounting
- 
-- **4x M3x10 SHCS**
-    - 4x Mounting *(must use BHCS if using CPAP Tupe Intake)*
- 
-- **7x M3x12 SHCS**
-    - 7x Mounting
- 
-- **1x M3x16 SHCS**
-    - 1x Air Exhaust Wheel
- 
-- **2x M3x20 SHCS**
-    - 2x Mounting
- 
-- **4x M3x25 SHCS**
-    - 2x Lid Front Hinge
-    - 2x Mounting
- 
-- **1x M3 Hex Nut**
-    - 1x Sensor Latch
-
-- **28x M3x5x4 Heat Set Insert**
-    - 16x Flow Chamber
-    - 6x Main Chamber
-    - 2x Basket
-    - 2x Lid Front Hinge
-    - 2x Mounting
-
-      ![StealthMax](./SM_PROMO_small.png)
-      ![StealthMax](./showroom_small.png)
+![StealthMax](./SM_PROMO_small.png)
+![StealthMax](./SM_builds_small.png)
