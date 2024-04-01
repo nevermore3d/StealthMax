@@ -89,15 +89,15 @@ Despite its compact size, the StealthMax S retains impressive filtering capacity
 ## (1.3) Volatile Organic Compounds (VOCs)
 When 3D printing, especially with certain types of materials like plastics, various [volatile organic compounds (VOCs)](https://en.wikipedia.org/wiki/Volatile_organic_compound) can be emitted. The specific VOCs produced can vary depending on the type of filament or resin used and the printing conditions. Some common VOCs emitted during 3D printing include:
 
-1.  **Styrene**: Commonly emitted when printing with ABS (Acrylonitrile Butadiene Styrene) filament. Styrene exposure has been linked to respiratory issues, irritation of the eyes, nose, and throat, and in some cases, long-term exposure may increase the risk of cancer.
+-  **Styrene**: Commonly emitted when printing with ABS (Acrylonitrile Butadiene Styrene) filament. Styrene exposure has been linked to respiratory issues, irritation of the eyes, nose, and throat, and in some cases, long-term exposure may increase the risk of cancer.
     
-2.  **Formaldehyde**: Often produced during the thermal decomposition of certain plastics, such as PLA (Polylactic Acid). Formaldehyde exposure can cause irritation of the eyes, nose, and throat, as well as respiratory issues. Prolonged exposure to high levels of formaldehyde has been linked to an increased risk of cancer.
+-  **Formaldehyde**: Often produced during the thermal decomposition of certain plastics, such as PLA (Polylactic Acid). Formaldehyde exposure can cause irritation of the eyes, nose, and throat, as well as respiratory issues. Prolonged exposure to high levels of formaldehyde has been linked to an increased risk of cancer.
     
-3.  **Acetaldehyde**: Another byproduct of thermal decomposition, commonly found in emissions from ABS and PLA printing. Acetaldehyde exposure can cause irritation of the eyes, nose, and throat, and may also affect the central nervous system.
+-  **Acetaldehyde**: Another byproduct of thermal decomposition, commonly found in emissions from ABS and PLA printing. Acetaldehyde exposure can cause irritation of the eyes, nose, and throat, and may also affect the central nervous system.
     
-4.  **Acrylonitrile**: Present in emissions from ABS filament, acrylonitrile exposure has been associated with respiratory issues and may increase the risk of certain cancers.
+-  **Acrylonitrile**: Present in emissions from ABS filament, acrylonitrile exposure has been associated with respiratory issues and may increase the risk of certain cancers.
     
-5.  **Ethylene glycol**: Found in emissions from certain types of resins used in stereolithography (SLA) printing, ethylene glycol exposure can cause irritation of the eyes, skin, and respiratory system.
+-  **Ethylene glycol**: Found in emissions from certain types of resins used in stereolithography (SLA) printing, ethylene glycol exposure can cause irritation of the eyes, skin, and respiratory system.
     
 These VOCs can have various health effects depending on factors such as concentration, duration of exposure, and individual susceptibility. Short-term exposure to high levels of VOCs can cause irritation of the respiratory tract, headaches, dizziness, and nausea. Long-term exposure to certain VOCs has been linked to more serious health effects, including respiratory issues and an increased risk of cancer.
 
