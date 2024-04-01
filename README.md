@@ -10,7 +10,7 @@ With its activated carbon and HEPA filtration, it aims to capture harmful fumes 
 
 # Table of Contents
 1. [About](#1-about)<br>
-	.1 [Nevermore](#11-nevermore)<br>
+	.1 [Nevermore3D](#11-nevermore3d)<br>
 	.2 [StealthMax](#12-stealthmax)<br>
 	.3 [Volatile Organic Compounds (VOCs)](#13-volatile-organic-compounds-vocs)
 	
@@ -28,19 +28,19 @@ With its activated carbon and HEPA filtration, it aims to capture harmful fumes 
 
 # (1) About
 
-##  (1.1) Nevermore
-Nevermore Activated Carbon Filters empower the 3D printing community with resources to create their own air filtration systems, promoting a safer and healthier printing environment.
+##  (1.1) Nevermore3D
+Nevermore3D empower the 3D printing community with resources to create their own air filtration systems, promoting a safer and healthier printing environment.
 
 ### History
-The project began in 2021 with the [Nevermore Micro](https://github.com/nevermore3d/Nevermore_Micro), a filtration system that has become widely adopted within the Voron community.<br>
+The project began in 2019 with the [Nevermore Micro](https://github.com/nevermore3d/Nevermore_Micro), a filtration system that has become widely adopted within the Voron community.<br>
 Since then, multiple filtration systems have been developed - with more to come!
 
 [![GitHub Repo stars](https://img.shields.io/github/stars/nevermore3d/Nevermore_Micro?style=flat-square&logo=github&label=Micro)](https://github.com/nevermore3d/Nevermore_Micro)[![](https://img.shields.io/badge/-blue.svg?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAuNTkwODc4IDAuMjUgMTQuODIgMTQuMTYiPgoJPHBhdGggZD0iTSA4IDAuMjUgYSAwLjc1IDAuNzUgMCAwIDEgMC42NzMgMC40MTggbCAxLjg4MiAzLjgxNSBsIDQuMjEgMC42MTIgYSAwLjc1IDAuNzUgMCAwIDEgMC40MTYgMS4yNzkgbCAtMy4wNDYgMi45NyBsIDAuNzE5IDQuMTkyIGEgMC43NTEgMC43NTEgMCAwIDEgLTEuMDg4IDAuNzkxIEwgOCAxMi4zNDcgbCAtMy43NjYgMS45OCBhIDAuNzUgMC43NSAwIDAgMSAtMS4wODggLTAuNzkgbCAwLjcyIC00LjE5NCBMIDAuODE4IDYuMzc0IGEgMC43NSAwLjc1IDAgMCAxIDAuNDE2IC0xLjI4IGwgNC4yMSAtMC42MTEgTCA3LjMyNyAwLjY2OCBBIDAuNzUgMC43NSAwIDAgMSA4IDAuMjUgWiIgZmlsbD0iI2UzYjM0MSIvPgo8L3N2Zz4=)](https://github.com/nevermore3d/Nevermore_Micro/stargazers) [![GitHub Repo stars](https://img.shields.io/github/stars/nevermore3d/StealthMax?style=flat-square&logo=github&label=StealthMax)](#stealthmax)[![](https://img.shields.io/badge/-blue.svg?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAuNTkwODc4IDAuMjUgMTQuODIgMTQuMTYiPgoJPHBhdGggZD0iTSA4IDAuMjUgYSAwLjc1IDAuNzUgMCAwIDEgMC42NzMgMC40MTggbCAxLjg4MiAzLjgxNSBsIDQuMjEgMC42MTIgYSAwLjc1IDAuNzUgMCAwIDEgMC40MTYgMS4yNzkgbCAtMy4wNDYgMi45NyBsIDAuNzE5IDQuMTkyIGEgMC43NTEgMC43NTEgMCAwIDEgLTEuMDg4IDAuNzkxIEwgOCAxMi4zNDcgbCAtMy43NjYgMS45OCBhIDAuNzUgMC43NSAwIDAgMSAtMS4wODggLTAuNzkgbCAwLjcyIC00LjE5NCBMIDAuODE4IDYuMzc0IGEgMC43NSAwLjc1IDAgMCAxIDAuNDE2IC0xLjI4IGwgNC4yMSAtMC42MTEgTCA3LjMyNyAwLjY2OCBBIDAuNzUgMC43NSAwIDAgMSA4IDAuMjUgWiIgZmlsbD0iI2UzYjM0MSIvPgo8L3N2Zz4=)](https://github.com/nevermore3d/StealthMax/stargazers) [![GitHub Repo stars](https://img.shields.io/github/stars/nevermore3d/Nevermore_FLEX?style=flat-square&logo=github&label=Flex&color=lightgrey)](https://github.com/nevermore3d/Nevermore_FLEX)[![](https://img.shields.io/badge/-blue.svg?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAuNTkwODc4IDAuMjUgMTQuODIgMTQuMTYiPgoJPHBhdGggZD0iTSA4IDAuMjUgYSAwLjc1IDAuNzUgMCAwIDEgMC42NzMgMC40MTggbCAxLjg4MiAzLjgxNSBsIDQuMjEgMC42MTIgYSAwLjc1IDAuNzUgMCAwIDEgMC40MTYgMS4yNzkgbCAtMy4wNDYgMi45NyBsIDAuNzE5IDQuMTkyIGEgMC43NTEgMC43NTEgMCAwIDEgLTEuMDg4IDAuNzkxIEwgOCAxMi4zNDcgbCAtMy43NjYgMS45OCBhIDAuNzUgMC43NSAwIDAgMSAtMS4wODggLTAuNzkgbCAwLjcyIC00LjE5NCBMIDAuODE4IDYuMzc0IGEgMC43NSAwLjc1IDAgMCAxIDAuNDE2IC0xLjI4IGwgNC4yMSAtMC42MTEgTCA3LjMyNyAwLjY2OCBBIDAuNzUgMC43NSAwIDAgMSA4IDAuMjUgWiIgZmlsbD0iI2UzYjM0MSIvPgo8L3N2Zz4=&color=lightgrey)](https://github.com/nevermore3d/Nevermore_FLEX/stargazers) [![GitHub Repo stars](https://img.shields.io/github/stars/nevermore3d/Nevermore_Mini?style=flat-square&logo=github&label=Mini&color=lightgrey)](https://github.com/nevermore3d/Nevermore_Mini)[![](https://img.shields.io/badge/-blue.svg?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAuNTkwODc4IDAuMjUgMTQuODIgMTQuMTYiPgoJPHBhdGggZD0iTSA4IDAuMjUgYSAwLjc1IDAuNzUgMCAwIDEgMC42NzMgMC40MTggbCAxLjg4MiAzLjgxNSBsIDQuMjEgMC42MTIgYSAwLjc1IDAuNzUgMCAwIDEgMC40MTYgMS4yNzkgbCAtMy4wNDYgMi45NyBsIDAuNzE5IDQuMTkyIGEgMC43NTEgMC43NTEgMCAwIDEgLTEuMDg4IDAuNzkxIEwgOCAxMi4zNDcgbCAtMy43NjYgMS45OCBhIDAuNzUgMC43NSAwIDAgMSAtMS4wODggLTAuNzkgbCAwLjcyIC00LjE5NCBMIDAuODE4IDYuMzc0IGEgMC43NSAwLjc1IDAgMCAxIDAuNDE2IC0xLjI4IGwgNC4yMSAtMC42MTEgTCA3LjMyNyAwLjY2OCBBIDAuNzUgMC43NSAwIDAgMSA4IDAuMjUgWiIgZmlsbD0iI2UzYjM0MSIvPgo8L3N2Zz4=&color=lightgrey)](https://github.com/nevermore3d/Nevermore_Mini/stargazers) [![GitHub Repo stars](https://img.shields.io/github/stars/nevermore3d/Resin_Filtration?style=flat-square&logo=github&label=Parapet%20Filter%20Tower&color=lightgrey)](https://github.com/nevermore3d/Resin_Filtration/tree/main/Parapet_Filter_Tower)[![](https://img.shields.io/badge/-blue.svg?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAuNTkwODc4IDAuMjUgMTQuODIgMTQuMTYiPgoJPHBhdGggZD0iTSA4IDAuMjUgYSAwLjc1IDAuNzUgMCAwIDEgMC42NzMgMC40MTggbCAxLjg4MiAzLjgxNSBsIDQuMjEgMC42MTIgYSAwLjc1IDAuNzUgMCAwIDEgMC40MTYgMS4yNzkgbCAtMy4wNDYgMi45NyBsIDAuNzE5IDQuMTkyIGEgMC43NTEgMC43NTEgMCAwIDEgLTEuMDg4IDAuNzkxIEwgOCAxMi4zNDcgbCAtMy43NjYgMS45OCBhIDAuNzUgMC43NSAwIDAgMSAtMS4wODggLTAuNzkgbCAwLjcyIC00LjE5NCBMIDAuODE4IDYuMzc0IGEgMC43NSAwLjc1IDAgMCAxIDAuNDE2IC0xLjI4IGwgNC4yMSAtMC42MTEgTCA3LjMyNyAwLjY2OCBBIDAuNzUgMC43NSAwIDAgMSA4IDAuMjUgWiIgZmlsbD0iI2UzYjM0MSIvPgo8L3N2Zz4=&color=lightgrey)](https://github.com/nevermore3d/Resin_Filtration/stargazers) [![GitHub Repo stars](https://img.shields.io/github/stars/nevermore3d/RatPack?style=flat-square&logo=github&label=RatPack&color=lightgrey)](https://github.com/nevermore3d/RatPack)[![](https://img.shields.io/badge/-blue.svg?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAuNTkwODc4IDAuMjUgMTQuODIgMTQuMTYiPgoJPHBhdGggZD0iTSA4IDAuMjUgYSAwLjc1IDAuNzUgMCAwIDEgMC42NzMgMC40MTggbCAxLjg4MiAzLjgxNSBsIDQuMjEgMC42MTIgYSAwLjc1IDAuNzUgMCAwIDEgMC40MTYgMS4yNzkgbCAtMy4wNDYgMi45NyBsIDAuNzE5IDQuMTkyIGEgMC43NTEgMC43NTEgMCAwIDEgLTEuMDg4IDAuNzkxIEwgOCAxMi4zNDcgbCAtMy43NjYgMS45OCBhIDAuNzUgMC43NSAwIDAgMSAtMS4wODggLTAuNzkgbCAwLjcyIC00LjE5NCBMIDAuODE4IDYuMzc0IGEgMC43NSAwLjc1IDAgMCAxIDAuNDE2IC0xLjI4IGwgNC4yMSAtMC42MTEgTCA3LjMyNyAwLjY2OCBBIDAuNzUgMC43NSAwIDAgMSA4IDAuMjUgWiIgZmlsbD0iI2UzYjM0MSIvPgo8L3N2Zz4=&color=lightgrey)](https://github.com/nevermore3d/RatPack/stargazers)
 
 ### Nevermore Carbon and other Filtration Media
 When users reported issues of oxidizing and damaging their printers due to bad carbon, we set out to find the most suitable carbon for 3D printing.<br>
-After consulting leading suppliers, Nevermore now offers its own premium carbon of unmatched specifications through selected [resellers](https://github.com/nevermore3d/Reseller).<br>
-While it may cost more than bulk options, Nevermore Carbon is safe to use in 3D printing environments, offers unbeatable effectiveness and every purchase directly contributes to the ongoing development of the Nevermore project.
+After consulting leading suppliers, Nevermore3D now offers its own premium carbon of unmatched specifications through selected [resellers](https://github.com/nevermore3d/Reseller).<br>
+While it may cost more than bulk options, Nevermore Carbon is safe to use in 3D printing environments, offers unbeatable effectiveness and every purchase directly contributes to the ongoing development of the Nevermore3D project.
 
 #### Nevermore Carbon
 -   Highly micro-porous and laboratory tested premium activated carbon, from a major European manufacturer
@@ -73,7 +73,7 @@ With its 2-liter carbon basket, it can hold 20 times as much carbon as the Never
 #### Dual Filtration
 The StealthMax does not make any compromises and utilizes activated carbon and HEPA filtration:
 
--   **HEPA (High Efficiency Particulate Air) filter:** This type of filter is effective at capturing ultrafine particles, which are particles less than 100 nanometers in diameter. These particles can be harmful if inhaled, so a HEPA filter can help to improve air quality in your printing space.
+-   **HEPA (High Efficiency Particulate Air) filter:** This type of filter is effective at capturing particles, which are particles less than 100 nanometers in diameter. These particles can be harmful if inhaled, so a HEPA filter can help to improve air quality in your printing space.
     
 -   **Activated carbon filter:** This type of filter is designed to absorb volatile organic compounds (VOCs). VOCs are gases emitted during 3D printing, and they can cause irritation to the eyes, nose, and throat. An activated carbon filter can help to reduce odors and improve air quality.
 
@@ -150,7 +150,7 @@ soon(tm)
 Our interactive [Print Guide](https://bit.ly/NevermoreStealthMaxPrintGuide) helps you find the parts you need to print and lets you download all the required STL files at once.
 
 ### Nevermore Controller
-A Raspberry Pi Pico W based controller for the Nevermore family of 3D printer filters. Compatible with Klipper, it offers automatic fan control and leverages Bluetooth LE technology to reduce wiring needs and allow for multiple device connections.
+A Raspberry Pi Pico W based controller for the Nevermore3D family of 3D printer filters. Compatible with Klipper, it offers automatic fan control and leverages Bluetooth LE technology to reduce wiring needs and allow for multiple device connections.
 
 # (3) Bill of Materials and Sourcing Guide
 
