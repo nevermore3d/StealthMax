@@ -123,7 +123,7 @@ Alternatively, the Direct On Panel Mount can be used to mount a StealthMax on pr
 
 ### Basic or Smart?
 #### Basic
-Simpler to set up, a sensorless StealthMax only requires the appropriate fan, a 12VDC power source and PWM control (e.g. by using your printer's electronics or a Pico).
+Simpler to set up, a sensorless StealthMax only requires the appropriate fan, a 12VDC power source (s. [Power Source](/power-source)) and PWM control (e.g. by using your printer's electronics or a Pico).
 #### Smart
 Thanks to the [Nevermore Controller](#nevermore-controller), a smart StealthMax utilizes VOC, temperature and humidity sensors to monitor air quality and automatically adjust fan speed.
 
@@ -154,7 +154,7 @@ A Raspberry Pi Pico W based controller for the Nevermore3D family of 3D printer 
 
 # (3) Bill of Materials and Sourcing Guide
 
-**Important Note:** <br>
+#### Power Source
 The StealthMax Kits and Bill of Materials (BOM) do not include a power source.<br>
 You will need to choose between one of the following options:
 -   A 12V power supply unit (PSU) with a minimum rating of 1.5 Amps.
