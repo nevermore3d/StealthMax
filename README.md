@@ -1,5 +1,5 @@
 
-![StealthMax](./StealthMax.png)
+![StealthMax](./assets/render/sm_300.png)
 
 # Nevermore StealthMax
 The Nevermore StealthMax is an air filter developed for 3D printers.
@@ -10,17 +10,17 @@ With its activated carbon and HEPA filtration, it aims to capture harmful fumes 
 
 # Table of Contents
 1. [About](#1-about)<br>
-	.1 [Nevermore3D](#11-nevermore3d)<br>
-	.2 [StealthMax](#12-stealthmax)<br>
-	.3 [Volatile Organic Compounds (VOCs)](#13-volatile-organic-compounds-vocs)
-	
+   .1 [Nevermore3D](#11-nevermore3d)<br>
+   .2 [StealthMax](#12-stealthmax)<br>
+   .3 [Volatile Organic Compounds (VOCs)](#13-volatile-organic-compounds-vocs)
+   
 2. [Getting Started](#2-getting-started)<br>
-	.1 [Overview](#21-overview)<br>
-	.2 [Documentation](#22-documentation)
+   .1 [Overview](#21-overview)<br>
+   .2 [Documentation](#22-documentation)
 
 3. [Bill of Materials (BOM) and Sourcing Guide](#3-bill-of-materials-and-sourcing-guide)<br>
-	.1 [StealthMax Kits](#31-stealthmax-kits)<br>
-	.2 [Self Sourcing (BOM)](#32-self-sourcing-bom)
+   .1 [StealthMax Kits](#31-stealthmax-kits)<br>
+   .2 [Self Sourcing (BOM)](#32-self-sourcing-bom)
 
 4. [Contributing](#4-contributing)<br>
 5. [Acknowledgements](#5-acknowledgments)<br>
@@ -31,60 +31,61 @@ With its activated carbon and HEPA filtration, it aims to capture harmful fumes 
 ##  (1.1) Nevermore3D
 Nevermore3D empower the 3D printing community with resources to create their own air filtration systems, promoting a safer and healthier printing environment.
 
-### History
-The project began in 2019 with the [Nevermore Micro](https://github.com/nevermore3d/Nevermore_Micro), a filtration system that has become widely adopted within the Voron community.<br>
-Since then, multiple filtration systems have been developed - with more to come!
+ - ### History
+   The project began in 2019 with the [Nevermore Micro](https://github.com/nevermore3d/Nevermore_Micro), a filtration system that has become widely adopted within the Voron community.<br>
+   Since then, multiple filtration systems have been developed - with more to come!
 
-[![GitHub Repo stars](https://img.shields.io/github/stars/nevermore3d/Nevermore_Micro?style=flat-square&logo=github&label=Micro)](https://github.com/nevermore3d/Nevermore_Micro)[![](https://img.shields.io/badge/-blue.svg?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAuNTkwODc4IDAuMjUgMTQuODIgMTQuMTYiPgoJPHBhdGggZD0iTSA4IDAuMjUgYSAwLjc1IDAuNzUgMCAwIDEgMC42NzMgMC40MTggbCAxLjg4MiAzLjgxNSBsIDQuMjEgMC42MTIgYSAwLjc1IDAuNzUgMCAwIDEgMC40MTYgMS4yNzkgbCAtMy4wNDYgMi45NyBsIDAuNzE5IDQuMTkyIGEgMC43NTEgMC43NTEgMCAwIDEgLTEuMDg4IDAuNzkxIEwgOCAxMi4zNDcgbCAtMy43NjYgMS45OCBhIDAuNzUgMC43NSAwIDAgMSAtMS4wODggLTAuNzkgbCAwLjcyIC00LjE5NCBMIDAuODE4IDYuMzc0IGEgMC43NSAwLjc1IDAgMCAxIDAuNDE2IC0xLjI4IGwgNC4yMSAtMC42MTEgTCA3LjMyNyAwLjY2OCBBIDAuNzUgMC43NSAwIDAgMSA4IDAuMjUgWiIgZmlsbD0iI2UzYjM0MSIvPgo8L3N2Zz4=)](https://github.com/nevermore3d/Nevermore_Micro/stargazers) [![GitHub Repo stars](https://img.shields.io/github/stars/nevermore3d/StealthMax?style=flat-square&logo=github&label=StealthMax)](#stealthmax)[![](https://img.shields.io/badge/-blue.svg?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAuNTkwODc4IDAuMjUgMTQuODIgMTQuMTYiPgoJPHBhdGggZD0iTSA4IDAuMjUgYSAwLjc1IDAuNzUgMCAwIDEgMC42NzMgMC40MTggbCAxLjg4MiAzLjgxNSBsIDQuMjEgMC42MTIgYSAwLjc1IDAuNzUgMCAwIDEgMC40MTYgMS4yNzkgbCAtMy4wNDYgMi45NyBsIDAuNzE5IDQuMTkyIGEgMC43NTEgMC43NTEgMCAwIDEgLTEuMDg4IDAuNzkxIEwgOCAxMi4zNDcgbCAtMy43NjYgMS45OCBhIDAuNzUgMC43NSAwIDAgMSAtMS4wODggLTAuNzkgbCAwLjcyIC00LjE5NCBMIDAuODE4IDYuMzc0IGEgMC43NSAwLjc1IDAgMCAxIDAuNDE2IC0xLjI4IGwgNC4yMSAtMC42MTEgTCA3LjMyNyAwLjY2OCBBIDAuNzUgMC43NSAwIDAgMSA4IDAuMjUgWiIgZmlsbD0iI2UzYjM0MSIvPgo8L3N2Zz4=)](https://github.com/nevermore3d/StealthMax/stargazers) [![GitHub Repo stars](https://img.shields.io/github/stars/nevermore3d/Nevermore_FLEX?style=flat-square&logo=github&label=Flex&color=lightgrey)](https://github.com/nevermore3d/Nevermore_FLEX)[![](https://img.shields.io/badge/-blue.svg?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAuNTkwODc4IDAuMjUgMTQuODIgMTQuMTYiPgoJPHBhdGggZD0iTSA4IDAuMjUgYSAwLjc1IDAuNzUgMCAwIDEgMC42NzMgMC40MTggbCAxLjg4MiAzLjgxNSBsIDQuMjEgMC42MTIgYSAwLjc1IDAuNzUgMCAwIDEgMC40MTYgMS4yNzkgbCAtMy4wNDYgMi45NyBsIDAuNzE5IDQuMTkyIGEgMC43NTEgMC43NTEgMCAwIDEgLTEuMDg4IDAuNzkxIEwgOCAxMi4zNDcgbCAtMy43NjYgMS45OCBhIDAuNzUgMC43NSAwIDAgMSAtMS4wODggLTAuNzkgbCAwLjcyIC00LjE5NCBMIDAuODE4IDYuMzc0IGEgMC43NSAwLjc1IDAgMCAxIDAuNDE2IC0xLjI4IGwgNC4yMSAtMC42MTEgTCA3LjMyNyAwLjY2OCBBIDAuNzUgMC43NSAwIDAgMSA4IDAuMjUgWiIgZmlsbD0iI2UzYjM0MSIvPgo8L3N2Zz4=&color=lightgrey)](https://github.com/nevermore3d/Nevermore_FLEX/stargazers) [![GitHub Repo stars](https://img.shields.io/github/stars/nevermore3d/Nevermore_Mini?style=flat-square&logo=github&label=Mini&color=lightgrey)](https://github.com/nevermore3d/Nevermore_Mini)[![](https://img.shields.io/badge/-blue.svg?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAuNTkwODc4IDAuMjUgMTQuODIgMTQuMTYiPgoJPHBhdGggZD0iTSA4IDAuMjUgYSAwLjc1IDAuNzUgMCAwIDEgMC42NzMgMC40MTggbCAxLjg4MiAzLjgxNSBsIDQuMjEgMC42MTIgYSAwLjc1IDAuNzUgMCAwIDEgMC40MTYgMS4yNzkgbCAtMy4wNDYgMi45NyBsIDAuNzE5IDQuMTkyIGEgMC43NTEgMC43NTEgMCAwIDEgLTEuMDg4IDAuNzkxIEwgOCAxMi4zNDcgbCAtMy43NjYgMS45OCBhIDAuNzUgMC43NSAwIDAgMSAtMS4wODggLTAuNzkgbCAwLjcyIC00LjE5NCBMIDAuODE4IDYuMzc0IGEgMC43NSAwLjc1IDAgMCAxIDAuNDE2IC0xLjI4IGwgNC4yMSAtMC42MTEgTCA3LjMyNyAwLjY2OCBBIDAuNzUgMC43NSAwIDAgMSA4IDAuMjUgWiIgZmlsbD0iI2UzYjM0MSIvPgo8L3N2Zz4=&color=lightgrey)](https://github.com/nevermore3d/Nevermore_Mini/stargazers) [![GitHub Repo stars](https://img.shields.io/github/stars/nevermore3d/Resin_Filtration?style=flat-square&logo=github&label=Parapet%20Filter%20Tower&color=lightgrey)](https://github.com/nevermore3d/Resin_Filtration/tree/main/Parapet_Filter_Tower)[![](https://img.shields.io/badge/-blue.svg?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAuNTkwODc4IDAuMjUgMTQuODIgMTQuMTYiPgoJPHBhdGggZD0iTSA4IDAuMjUgYSAwLjc1IDAuNzUgMCAwIDEgMC42NzMgMC40MTggbCAxLjg4MiAzLjgxNSBsIDQuMjEgMC42MTIgYSAwLjc1IDAuNzUgMCAwIDEgMC40MTYgMS4yNzkgbCAtMy4wNDYgMi45NyBsIDAuNzE5IDQuMTkyIGEgMC43NTEgMC43NTEgMCAwIDEgLTEuMDg4IDAuNzkxIEwgOCAxMi4zNDcgbCAtMy43NjYgMS45OCBhIDAuNzUgMC43NSAwIDAgMSAtMS4wODggLTAuNzkgbCAwLjcyIC00LjE5NCBMIDAuODE4IDYuMzc0IGEgMC43NSAwLjc1IDAgMCAxIDAuNDE2IC0xLjI4IGwgNC4yMSAtMC42MTEgTCA3LjMyNyAwLjY2OCBBIDAuNzUgMC43NSAwIDAgMSA4IDAuMjUgWiIgZmlsbD0iI2UzYjM0MSIvPgo8L3N2Zz4=&color=lightgrey)](https://github.com/nevermore3d/Resin_Filtration/stargazers) [![GitHub Repo stars](https://img.shields.io/github/stars/nevermore3d/RatPack?style=flat-square&logo=github&label=RatPack&color=lightgrey)](https://github.com/nevermore3d/RatPack)[![](https://img.shields.io/badge/-blue.svg?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAuNTkwODc4IDAuMjUgMTQuODIgMTQuMTYiPgoJPHBhdGggZD0iTSA4IDAuMjUgYSAwLjc1IDAuNzUgMCAwIDEgMC42NzMgMC40MTggbCAxLjg4MiAzLjgxNSBsIDQuMjEgMC42MTIgYSAwLjc1IDAuNzUgMCAwIDEgMC40MTYgMS4yNzkgbCAtMy4wNDYgMi45NyBsIDAuNzE5IDQuMTkyIGEgMC43NTEgMC43NTEgMCAwIDEgLTEuMDg4IDAuNzkxIEwgOCAxMi4zNDcgbCAtMy43NjYgMS45OCBhIDAuNzUgMC43NSAwIDAgMSAtMS4wODggLTAuNzkgbCAwLjcyIC00LjE5NCBMIDAuODE4IDYuMzc0IGEgMC43NSAwLjc1IDAgMCAxIDAuNDE2IC0xLjI4IGwgNC4yMSAtMC42MTEgTCA3LjMyNyAwLjY2OCBBIDAuNzUgMC43NSAwIDAgMSA4IDAuMjUgWiIgZmlsbD0iI2UzYjM0MSIvPgo8L3N2Zz4=&color=lightgrey)](https://github.com/nevermore3d/RatPack/stargazers)
+   [![GitHub Repo stars](https://img.shields.io/github/stars/nevermore3d/Nevermore_Micro?style=flat-square&logo=github&label=Micro)](https://github.com/nevermore3d/Nevermore_Micro)[![](https://img.shields.io/badge/-blue.svg?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAuNTkwODc4IDAuMjUgMTQuODIgMTQuMTYiPgoJPHBhdGggZD0iTSA4IDAuMjUgYSAwLjc1IDAuNzUgMCAwIDEgMC42NzMgMC40MTggbCAxLjg4MiAzLjgxNSBsIDQuMjEgMC42MTIgYSAwLjc1IDAuNzUgMCAwIDEgMC40MTYgMS4yNzkgbCAtMy4wNDYgMi45NyBsIDAuNzE5IDQuMTkyIGEgMC43NTEgMC43NTEgMCAwIDEgLTEuMDg4IDAuNzkxIEwgOCAxMi4zNDcgbCAtMy43NjYgMS45OCBhIDAuNzUgMC43NSAwIDAgMSAtMS4wODggLTAuNzkgbCAwLjcyIC00LjE5NCBMIDAuODE4IDYuMzc0IGEgMC43NSAwLjc1IDAgMCAxIDAuNDE2IC0xLjI4IGwgNC4yMSAtMC42MTEgTCA3LjMyNyAwLjY2OCBBIDAuNzUgMC43NSAwIDAgMSA4IDAuMjUgWiIgZmlsbD0iI2UzYjM0MSIvPgo8L3N2Zz4=)](https://github.com/nevermore3d/Nevermore_Micro/stargazers) [![GitHub Repo stars](https://img.shields.io/github/stars/nevermore3d/StealthMax?style=flat-square&logo=github&label=StealthMax)](#stealthmax)[![](https://img.shields.io/badge/-blue.svg?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAuNTkwODc4IDAuMjUgMTQuODIgMTQuMTYiPgoJPHBhdGggZD0iTSA4IDAuMjUgYSAwLjc1IDAuNzUgMCAwIDEgMC42NzMgMC40MTggbCAxLjg4MiAzLjgxNSBsIDQuMjEgMC42MTIgYSAwLjc1IDAuNzUgMCAwIDEgMC40MTYgMS4yNzkgbCAtMy4wNDYgMi45NyBsIDAuNzE5IDQuMTkyIGEgMC43NTEgMC43NTEgMCAwIDEgLTEuMDg4IDAuNzkxIEwgOCAxMi4zNDcgbCAtMy43NjYgMS45OCBhIDAuNzUgMC43NSAwIDAgMSAtMS4wODggLTAuNzkgbCAwLjcyIC00LjE5NCBMIDAuODE4IDYuMzc0IGEgMC43NSAwLjc1IDAgMCAxIDAuNDE2IC0xLjI4IGwgNC4yMSAtMC42MTEgTCA3LjMyNyAwLjY2OCBBIDAuNzUgMC43NSAwIDAgMSA4IDAuMjUgWiIgZmlsbD0iI2UzYjM0MSIvPgo8L3N2Zz4=)](https://github.com/nevermore3d/StealthMax/stargazers) [![GitHub Repo stars](https://img.shields.io/github/stars/nevermore3d/Nevermore_FLEX?style=flat-square&logo=github&label=Flex&color=lightgrey)](https://github.com/nevermore3d/Nevermore_FLEX)[![](https://img.shields.io/badge/-blue.svg?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAuNTkwODc4IDAuMjUgMTQuODIgMTQuMTYiPgoJPHBhdGggZD0iTSA4IDAuMjUgYSAwLjc1IDAuNzUgMCAwIDEgMC42NzMgMC40MTggbCAxLjg4MiAzLjgxNSBsIDQuMjEgMC42MTIgYSAwLjc1IDAuNzUgMCAwIDEgMC40MTYgMS4yNzkgbCAtMy4wNDYgMi45NyBsIDAuNzE5IDQuMTkyIGEgMC43NTEgMC43NTEgMCAwIDEgLTEuMDg4IDAuNzkxIEwgOCAxMi4zNDcgbCAtMy43NjYgMS45OCBhIDAuNzUgMC43NSAwIDAgMSAtMS4wODggLTAuNzkgbCAwLjcyIC00LjE5NCBMIDAuODE4IDYuMzc0IGEgMC43NSAwLjc1IDAgMCAxIDAuNDE2IC0xLjI4IGwgNC4yMSAtMC42MTEgTCA3LjMyNyAwLjY2OCBBIDAuNzUgMC43NSAwIDAgMSA4IDAuMjUgWiIgZmlsbD0iI2UzYjM0MSIvPgo8L3N2Zz4=&color=lightgrey)](https://github.com/nevermore3d/Nevermore_FLEX/stargazers) [![GitHub Repo stars](https://img.shields.io/github/stars/nevermore3d/Nevermore_Mini?style=flat-square&logo=github&label=Mini&color=lightgrey)](https://github.com/nevermore3d/Nevermore_Mini)[![](https://img.shields.io/badge/-blue.svg?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAuNTkwODc4IDAuMjUgMTQuODIgMTQuMTYiPgoJPHBhdGggZD0iTSA4IDAuMjUgYSAwLjc1IDAuNzUgMCAwIDEgMC42NzMgMC40MTggbCAxLjg4MiAzLjgxNSBsIDQuMjEgMC42MTIgYSAwLjc1IDAuNzUgMCAwIDEgMC40MTYgMS4yNzkgbCAtMy4wNDYgMi45NyBsIDAuNzE5IDQuMTkyIGEgMC43NTEgMC43NTEgMCAwIDEgLTEuMDg4IDAuNzkxIEwgOCAxMi4zNDcgbCAtMy43NjYgMS45OCBhIDAuNzUgMC43NSAwIDAgMSAtMS4wODggLTAuNzkgbCAwLjcyIC00LjE5NCBMIDAuODE4IDYuMzc0IGEgMC43NSAwLjc1IDAgMCAxIDAuNDE2IC0xLjI4IGwgNC4yMSAtMC42MTEgTCA3LjMyNyAwLjY2OCBBIDAuNzUgMC43NSAwIDAgMSA4IDAuMjUgWiIgZmlsbD0iI2UzYjM0MSIvPgo8L3N2Zz4=&color=lightgrey)](https://github.com/nevermore3d/Nevermore_Mini/stargazers) [![GitHub Repo stars](https://img.shields.io/github/stars/nevermore3d/Resin_Filtration?style=flat-square&logo=github&label=Parapet%20Filter%20Tower&color=lightgrey)](https://github.com/nevermore3d/Resin_Filtration/tree/main/Parapet_Filter_Tower)[![](https://img.shields.io/badge/-blue.svg?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAuNTkwODc4IDAuMjUgMTQuODIgMTQuMTYiPgoJPHBhdGggZD0iTSA4IDAuMjUgYSAwLjc1IDAuNzUgMCAwIDEgMC42NzMgMC40MTggbCAxLjg4MiAzLjgxNSBsIDQuMjEgMC42MTIgYSAwLjc1IDAuNzUgMCAwIDEgMC40MTYgMS4yNzkgbCAtMy4wNDYgMi45NyBsIDAuNzE5IDQuMTkyIGEgMC43NTEgMC43NTEgMCAwIDEgLTEuMDg4IDAuNzkxIEwgOCAxMi4zNDcgbCAtMy43NjYgMS45OCBhIDAuNzUgMC43NSAwIDAgMSAtMS4wODggLTAuNzkgbCAwLjcyIC00LjE5NCBMIDAuODE4IDYuMzc0IGEgMC43NSAwLjc1IDAgMCAxIDAuNDE2IC0xLjI4IGwgNC4yMSAtMC42MTEgTCA3LjMyNyAwLjY2OCBBIDAuNzUgMC43NSAwIDAgMSA4IDAuMjUgWiIgZmlsbD0iI2UzYjM0MSIvPgo8L3N2Zz4=&color=lightgrey)](https://github.com/nevermore3d/Resin_Filtration/stargazers) [![GitHub Repo stars](https://img.shields.io/github/stars/nevermore3d/RatPack?style=flat-square&logo=github&label=RatPack&color=lightgrey)](https://github.com/nevermore3d/RatPack)[![](https://img.shields.io/badge/-blue.svg?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAuNTkwODc4IDAuMjUgMTQuODIgMTQuMTYiPgoJPHBhdGggZD0iTSA4IDAuMjUgYSAwLjc1IDAuNzUgMCAwIDEgMC42NzMgMC40MTggbCAxLjg4MiAzLjgxNSBsIDQuMjEgMC42MTIgYSAwLjc1IDAuNzUgMCAwIDEgMC40MTYgMS4yNzkgbCAtMy4wNDYgMi45NyBsIDAuNzE5IDQuMTkyIGEgMC43NTEgMC43NTEgMCAwIDEgLTEuMDg4IDAuNzkxIEwgOCAxMi4zNDcgbCAtMy43NjYgMS45OCBhIDAuNzUgMC43NSAwIDAgMSAtMS4wODggLTAuNzkgbCAwLjcyIC00LjE5NCBMIDAuODE4IDYuMzc0IGEgMC43NSAwLjc1IDAgMCAxIDAuNDE2IC0xLjI4IGwgNC4yMSAtMC42MTEgTCA3LjMyNyAwLjY2OCBBIDAuNzUgMC43NSAwIDAgMSA4IDAuMjUgWiIgZmlsbD0iI2UzYjM0MSIvPgo8L3N2Zz4=&color=lightgrey)](https://github.com/nevermore3d/RatPack/stargazers)
 
-### Nevermore Carbon and other Filtration Media
-When users reported issues of oxidizing and damaging their printers due to bad carbon, we set out to find the most suitable carbon for 3D printing.<br>
-After consulting leading suppliers, Nevermore3D now offers its own premium carbon of unmatched specifications through selected [resellers](https://github.com/nevermore3d/Reseller).<br>
-While it may cost more than bulk options, Nevermore Carbon is safe to use in 3D printing environments, offers unbeatable effectiveness and every purchase directly contributes to the ongoing development of the Nevermore3D project.
+ - ### Nevermore Carbon and other Filtration Media
+   When users reported issues of oxidizing and damaging their printers due to bad carbon, we set out to find the most suitable carbon for 3D printing.<br>
+   After consulting leading suppliers, Nevermore3D now offers its own premium carbon of unmatched specifications through selected [resellers](https://github.com/nevermore3d/Reseller).<br>
+   While it may cost more than bulk options, Nevermore Carbon is safe to use in 3D printing environments, offers unbeatable effectiveness and every purchase directly contributes to the ongoing development of the Nevermore3D project.
 
-#### Nevermore Carbon
--   Highly micro-porous and laboratory tested premium activated carbon, from a major European manufacturer
--   Market-leading VOC adsorption fine tuned for _aromatic hydrocarbons emitted during 3D printing_ such as styrene, benzaldehyde, toluene, benzene, etc. [**CTC >=80**, benzene adsorption capacity up to **0.48g/g**]
--   Market-leading surface area (storage capacity) of **1250m2/g**!
--   Vacuum packed for minimal dust generation during shipping.
--   Vacuum dedusted during the packaging process for immediate use in 3d printers
--   Available in Regular (750ml, 0.33kg) and XL (2300ml, 1kg)
+    - #### Nevermore Carbon
+      -   Highly micro-porous and laboratory tested premium activated carbon, from a major European manufacturer
+      -   Market-leading VOC adsorption fine tuned for _aromatic hydrocarbons emitted during 3D printing_ such as styrene, benzaldehyde, toluene, benzene, etc. [**CTC >=80**, benzene adsorption capacity up to **0.48g/g**]
+      -   Market-leading surface area (storage capacity) of **1250m2/g**!
+      -   Vacuum packed for minimal dust generation during shipping.
+      -   Vacuum dedusted during the packaging process for immediate use in 3d printers
+      -   Available in Regular (750ml, 0.33kg) and XL (2300ml, 1kg)
 
-#### Nevermore Scorch
--   Zeolite-based, highly microporous adsorption medium, enhanced with potassium permanganate (KMnO4).
--   Chemically transform printer VOC toxins like styrene – a major VOC in ABS and ASA filaments – into harmless potassium benzoate (food additive).
--   The process is not harmed by high chamber temps, but accelerated, making Nevermore Scorch ideal for heated 3D printer chambers!
--   Colour changes from bright purple to a dullish gray as it is being spent, giving a visual indication of when it is time to swap filter media!
--   Available in Regular (750ml, 0.66kg) and XL (2300ml, 2kg)
+    - #### Nevermore Scorch
+      -   Zeolite-based, highly microporous adsorption medium, enhanced with potassium permanganate (KMnO4).
+      -   Chemically transform printer VOC toxins like styrene – a major VOC in ABS and ASA filaments – into harmless potassium benzoate (food additive).
+      -   The process is not harmed by high chamber temps, but accelerated, making Nevermore Scorch ideal for heated 3D printer chambers!
+      -   Colour changes from bright purple to a dullish gray as it is being spent, giving a visual indication of when it is time to swap filter media!
+      -   Available in Regular (750ml, 0.66kg) and XL (2300ml, 2kg)
 
-#### Nevermore Mix
--   Pre-prepared 50/50 mix of Nevermore Carbon and Nevermore Scorch; a less-hassle, best-of-both-worlds printer filtration
--   Combining the long-life och stellar adsorption capacity of activated carbon with Nevermore Scorch performance in hot surroundings.
--   Ideal for most users with enclosed 3d printers printing ABS/ASA/PETG/PC in chamber temps of 50C +-10C.
+    - #### Nevermore Mix
+      -   Pre-prepared 50/50 mix of Nevermore Carbon and Nevermore Scorch; a less-hassle, best-of-both-worlds printer filtration
+      -   Combining the long-life och stellar adsorption capacity of activated carbon with Nevermore Scorch performance in hot surroundings.
+      -   Ideal for most users with enclosed 3d printers printing ABS/ASA/PETG/PC in chamber temps of 50C +-10C.
 
-#### Nevermore HEPA
--   Nevermore HEPA Filters
+    - #### Nevermore HEPA
+      -   Nevermore HEPA Filters
 
 ## (1.2) StealthMax
 The Nevermore StealthMax improves upon the [Nevermore Max](https://github.com/nevermore3d/Nevermore_Max) with a more warp-resistant frame, smaller size, optional exhaust for cooler printing, and easier assembly.
 
 With its 2-liter carbon basket, it can hold 20 times as much carbon as the Nevermore Micro, and thanks to its innovative dual filtration design, the StealthMax allows for recirculation of filtered air within an enclosed printer to both maintain chamber temperature and further improve filtration efficiency and longevity.
 
-#### Dual Filtration
-The StealthMax does not make any compromises and utilizes activated carbon and HEPA filtration:
+ - #### Dual Filtration
+   The StealthMax does not make any compromises and utilizes activated carbon and HEPA filtration:
+      
+   -   **Activated carbon filter:** This type of filter is designed to absorb volatile organic compounds (VOCs). VOCs are gases emitted during 3D printing, and they can cause irritation to the eyes, nose, and throat. An activated carbon filter can help to reduce odors and improve air quality.
 
--   **HEPA (High Efficiency Particulate Air) filter:** This type of filter is effective at capturing particles, which are particles less than 100 nanometers in diameter. These particles can be harmful if inhaled, so a HEPA filter can help to improve air quality in your printing space.
-    
--   **Activated carbon filter:** This type of filter is designed to absorb volatile organic compounds (VOCs). VOCs are gases emitted during 3D printing, and they can cause irritation to the eyes, nose, and throat. An activated carbon filter can help to reduce odors and improve air quality.
+   -   **HEPA (High Efficiency Particulate Air) filter:** This type of filter is effective at capturing particles, which are particles less than 100 nanometers in diameter. These particles can be harmful if inhaled, so a HEPA filter can help to improve air quality in your printing space.
 
-#### Recirculation
-The StealthMax and your printer's enclosure function as a closed-loop system, enabling air to recirculate through the filter multiple times. 
-This results in a significantly higher capture rate of harmful particles compared to a single-pass exhaust filter.<br>
-The effectiveness of this process is diminished if the enclosure has leaks, however, opening the exhaust slider creates a slight negative pressure inside the enclosure, thus drawing air in through leaks and maximizing the StealthMax's filtration potential.
+ - #### Recirculation
+   The StealthMax and your printer's enclosure function as a closed-loop system, enabling air to recirculate through the filter multiple times. 
+   This results in a significantly higher capture rate of harmful particles compared to a single-pass exhaust filter.<br>
+   The effectiveness of this process is diminished if the enclosure has leaks, however, opening the exhaust slider creates a slight negative pressure inside the enclosure, thus drawing air in through leaks and maximizing the StealthMax's filtration potential.
 
-#### StealthMax S (250)
-Making safer printing more accessible, the StealthMax S was designed for printing on a 250x250mm bed.<br>
-Despite its compact size, the StealthMax S retains impressive filtering capacity thanks to its 1.4-liter carbon basket as well as the benefits of dual filtration.
+ - #### StealthMax S (250)
+   Making safer printing more accessible, the StealthMax S was designed for printing on a 250x250mm bed.<br>
+   Despite its compact size, the StealthMax S retains impressive filtering capacity thanks to its 1.4-liter carbon basket as well as the benefits of dual filtration.
+   [Read more](./assets/_unsorted/Stealthmax_S)
 
 ## (1.3) Volatile Organic Compounds (VOCs)
 When 3D printing, especially with certain types of materials like plastics, various [volatile organic compounds (VOCs)](https://en.wikipedia.org/wiki/Volatile_organic_compound) can be emitted. The specific VOCs produced can vary depending on the type of filament or resin used and the printing conditions. Some common VOCs emitted during 3D printing include:
@@ -105,52 +106,54 @@ These VOCs can have various health effects depending on factors such as concentr
 
 ## (2.1) Overview
 Different printers and use cases require different solutions - choose the StealthMax that fits your needs!
-### Regular StealthMax (300) or StealthMax S (250)?
-The StealthMax comes in two sizes:
-| | Regular StealthMax (300) | StealthMax S (250) |
-| ---| --- | --- |
-| Min. Req. Bed Size | 300x300mm | 250x250mm|
-| Carbon Capacity | 2.0 liters | 1.4 liters |
-| HEPA Filter | HEPA Filter for Xiaomi Mijia G1 | Nevermore HEPA Filter |
-| Fan | Delta BFB0712HF | Delta KFB0612HAFDB |
+ - ### Regular StealthMax (300) or StealthMax S (250)?
+   The StealthMax comes in two sizes:
+   | | Regular StealthMax (300) | StealthMax S (250) |
+   | ---| --- | --- |
+   | Min. Req. Bed Size | 300x300mm | 250x250mm|
+   | Carbon Capacity | 2.0 liters | 1.4 liters |
+   | HEPA Filter | HEPA Filter for Xiaomi Mijia G1 | Nevermore HEPA Filter |
+   | Fan | Delta BFB0712HF | Delta KFB0612HAFDB |
 
-### Back Panel Mount or Direct On Panel Mount?
-The are two options for mounting a StealthMax to your printer:
-#### Back Panel Mount (BPM)
-The Back Panel Mount is designed to be used with Voron printers (in particular Voron 2 and Trident) by utilizing the back panel's cutout and mounting the StealthMax to the top 2020 extrusion.
-#### Direct On Panel Mount (DOPM)
-Alternatively, the Direct On Panel Mount can be used to mount a StealthMax on pretty much any panel.
+ - ### Back Panel Mount or Direct On Panel Mount?
+   The are two options for mounting a StealthMax to your printer:
+    - #### Back Panel Mount (BPM)
+      The Back Panel Mount is designed to be used with Voron printers (in particular Voron 2 and Trident) by utilizing the back panel's cutout and mounting the StealthMax to the top 2020 extrusion.
+    - #### Direct On Panel Mount (DOPM)
+      Alternatively, the Direct On Panel Mount can be used to mount a StealthMax on pretty much any panel.
+	  [Read more](./assets/_unsorted/Direct-On-Panel_Mount)
 
-### Basic or Smart?
-#### Basic
-Simpler to set up, a sensorless StealthMax only requires the appropriate fan, a 12VDC power source (s. [Power Source](#power-source)) and PWM control (e.g. by using your printer's electronics or a Pico).
-#### Smart
-Thanks to the [Nevermore Controller](#nevermore-controller), a smart StealthMax utilizes VOC, temperature and humidity sensors to monitor air quality and automatically adjust fan speed.
+ - ### Basic or Smart?
+    - #### Basic
+      Simpler to set up, a sensorless StealthMax only requires the appropriate fan, a 12VDC power source (s. [Power Source](#power-source)) and PWM control (e.g. by using your printer's electronics or a Pico).
+    - #### Smart
+      Thanks to the [Nevermore Controller](#nevermore-controller), a smart StealthMax utilizes VOC, temperature and humidity sensors to monitor air quality and automatically adjust fan speed.
 
-### Add-ons
-Increase the capability of your StealthMax further and explore our range of add-ons:
+ - ### Add-ons
+   Increase the capability of your StealthMax further and explore our range of add-ons:
 
-#### CPAP
-Moves the intake closer to the hotend by attaching it directly to the gantry, maximizing VOC capture potential.
+    - #### CPAP
+      Moves the intake closer to the hotend by attaching it directly to the gantry, maximizing VOC capture potential.
 
-#### Displays
-Upgrade your StealthMax with a GC9A01 or CST816S display to monitor it's effectiveness at a glance.
+    - #### Displays
+      Upgrade your StealthMax with a GC9A01 or CST816S display to monitor it's effectiveness at a glance.
 
-#### Photocatalytic Oxidation (PCO) Filtration
-PCO Filtration mimics the sun's natural breakdown of VOCs. Utilizing UVC lights and a TiO2 mesh, it generates hydroxyl radicals to dismantle VOCs into harmless compounds. This method enhances efficiency by addressing stubborn VOCs, maintains cleanliness between prints, and adapts to heat conditions for optimal performance.
+    - #### Photocatalytic Oxidation (PCO) Filtration
+      PCO Filtration mimics the sun's natural breakdown of VOCs. Utilizing UVC lights and a TiO2 mesh, it generates hydroxyl radicals to dismantle VOCs into harmless compounds. This method enhances efficiency by addressing stubborn VOCs, maintains cleanliness between prints, and adapts to heat conditions for optimal performance.
+	  [Read more](./assets/_unsorted/PCO)
 
-### User Mods
-Find clever solutions and unique customizations with our collection of [User Mods](/UserMods) contributed by fellow community members.
+ - ### User Mods
+   Find clever solutions and unique customizations with our collection of [User Mods](/UserMods) contributed by fellow community members.
 
 ## (2.2) Documentation
-### Manual
-soon(tm)
+ - ### Manual
+   soon(tm)
 
-### Print Guide
-Our interactive [Print Guide](https://bit.ly/NevermoreStealthMaxPrintGuide) helps you find the parts you need to print and lets you download all the required STL files at once.
+ - ### Print Guide
+   Our interactive [Print Guide](https://bit.ly/NevermoreStealthMaxPrintGuide) helps you find the parts you need to print and lets you download all the required STL files at once.
 
-### Nevermore Controller
-A Raspberry Pi Pico W based controller for the Nevermore3D family of 3D printer filters. Compatible with Klipper, it offers automatic fan control and leverages Bluetooth LE technology to reduce wiring needs and allow for multiple device connections.
+ - ### Nevermore Controller
+   A Raspberry Pi Pico W based controller for the Nevermore3D family of 3D printer filters. Compatible with Klipper, it offers automatic fan control and leverages Bluetooth LE technology to reduce wiring needs and allow for multiple device connections.
 
 # (3) Bill of Materials and Sourcing Guide
 
@@ -190,5 +193,5 @@ Special thanks to @SanaaHamel, @TubaToothpasties, @Blamm, @Backslash for all the
 
 # (6) Showroom
 
-![StealthMax](./SM_PROMO_small.png)
-![StealthMax](./SM_builds_small.png)
+![StealthMax Promo](./assets/showroom/showroom_promo.png)
+![StealthMax Showroom](./assets/showroom/showroom_small.png)

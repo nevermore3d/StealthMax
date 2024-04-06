@@ -34,6 +34,6 @@ Thanks to [Exerqtor](https://github.com/Exerqtor) for the latest flow chamber tw
 
 
 Heres how the smaller version compares to the larger:
-![StealthMax](./StealthMax_Size_Comparison.png)
+![StealthMax](./assets/render/sm_250_300_comparison.png)
 
-![StealthMax](./SM25_exhaustmount.png)
+![StealthMax](./assets/render/sm_250.png)
