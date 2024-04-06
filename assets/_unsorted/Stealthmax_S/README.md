@@ -11,9 +11,6 @@ Lets decrease size a bit shall we, in order to print the Stealthmax on machines 
 - Quick and easy sourcing? Check out the electronics/fasteners/hepa/carbon [**Stealthmax S Filter Kit**](https://www.onetwo3d.co.uk/product/nevermore-stealthmax-s-filter-kit-advanced/?wpam_id=2) from OT3D!
 - Most everything else remains the same from the regular BOM, including sensors, pico, buck converter, with just a few minor bolt changes: [Interactive BOM / Sourcing Guide](https://bit.ly/NeveremoreStealthMaxBOM)
 
-Thanks to [Exerqtor](https://github.com/Exerqtor) for the latest flow chamber tweaks, adding two additional inserts improving assembly! 
-
-
 Heres how the smaller version compares to the larger:
 ![StealthMax](/assets/renders/sm_250_300_comparison.png)
 ![StealthMax](/assets/renders/sm_250.png)
