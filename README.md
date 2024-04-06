@@ -151,7 +151,7 @@ Different printers and use cases require different solutions - choose the Stealt
 
 ## (2.2) Documentation
  - ### Manual
-   soon(tm)
+   soon<sup>tm</sup>
 
  - ### Print Guide
    Our interactive [Print Guide](https://bit.ly/NevermoreStealthMaxPrintGuide) helps you find the parts you need to print and lets you download all the required STL files at once.
