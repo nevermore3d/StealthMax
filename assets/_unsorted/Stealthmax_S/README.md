@@ -1,5 +1,5 @@
+![StealthMax](/assets/renders/sm_250_300_comparison.gif)
 # **Stealthmax [S]**
-
 Lets decrease size a bit shall we, in order to print the Stealthmax on machines with a 250mm bed? 
 
 **StealthMax [S]** is what we end up with - reworked from the ground up, its both 20% [**S**]maller than a regular Stealthmax, as well as much more [**S**]ilent due to the smaller, lower noise fan. See BOM below (purchase links linked on the main page).
@@ -34,6 +34,5 @@ Thanks to [Exerqtor](https://github.com/Exerqtor) for the latest flow chamber tw
 
 
 Heres how the smaller version compares to the larger:
-![StealthMax](./assets/render/sm_250_300_comparison.png)
-
-![StealthMax](./assets/render/sm_250.png)
+![StealthMax](/assets/renders/sm_250_300_comparison.png)
+![StealthMax](/assets/renders/sm_250.png)
