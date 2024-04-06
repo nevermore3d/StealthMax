@@ -9,7 +9,7 @@ Lets decrease size a bit shall we, in order to print the Stealthmax on machines 
 - Mounting points for VOC sensors has changed compared to the regular stealthmax.
 - **Hepa filters** have been changed to new [**Nevermore Mini HEPA**](https://www.onetwo3d.co.uk/product/hepa-filter-for-nevermore-mini/?wpam_id=2), which means the total carbon depth (equaling efficiency) of the filter has not decreased more than a bit over one centimeter compared to the original Stealthmax.
 - Quick and easy sourcing? Check out the electronics/fasteners/hepa/carbon [**Stealthmax S Filter Kit**](https://www.onetwo3d.co.uk/product/nevermore-stealthmax-s-filter-kit-advanced/?wpam_id=2) from OT3D!
-- Most everything else remains the same from the regular BOM, including sensors, pico, buck converter, with just a few minor bolt changes: [Interactive BOM / Sourcing Guide](https://bit.ly/NeveremoreStealthMaxBOM)
+- Most everything else remains the same from the regular BOM, including sensors, pico, buck converter, with just a few minor bolt changes: see out interactive [BOM / Sourcing Guide](https://bit.ly/NeveremoreStealthMaxBOM)
 
 Heres how the smaller version compares to the larger:
 ![StealthMax](/assets/renders/sm_250_300_comparison.png)
