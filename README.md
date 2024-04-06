@@ -1,5 +1,5 @@
 
-![StealthMax](./assets/render/sm_300.png)
+![StealthMax](./assets/renders/sm_300.png)
 
 # Nevermore StealthMax
 The Nevermore StealthMax is an air filter developed for 3D printers.
