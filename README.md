@@ -154,7 +154,8 @@ Different printers and use cases require different solutions - choose the Stealt
    Our interactive [Print Guide](https://bit.ly/NevermoreStealthMaxPrintGuide) helps you find the parts you need to print and lets you download all the required STL files at once.
 
  - ### Nevermore Controller
-   A Raspberry Pi Pico W based controller for the Nevermore3D family of 3D printer filters. Compatible with Klipper, it offers automatic fan control and leverages Bluetooth LE technology to reduce wiring needs and allow for multiple device connections.
+   A Raspberry Pi Pico W based controller for the Nevermore3D family of 3D printer filters created and maintained by [@SanaaHamel](https://github.com/SanaaHamel). Compatible with Klipper, it offers automatic fan control and leverages Bluetooth LE technology to reduce wiring needs and allow for multiple device connections.
+   [Read more](https://github.com/SanaaHamel/nevermore-controller)
 
 # (3) Bill of Materials and Sourcing Guide
 
