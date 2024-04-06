@@ -2,20 +2,15 @@
 
 Note: As of yet unknown efficiency - print for feedback or improvements (within Creative Commons Attribution) to make this addon as awesome as possible!
 
-![StealthMax_PCO.png](./assets/render/pco1.png)
-![StealthMax_PCO_Combo.png](./assets/render/pco2.png)
+![StealthMax_PCO_Combo.png](/assets/renders/pco2.png)
 
 # **PCO Filtration Addon: A Sun-Inspired Solution for Cleaner Air**
 
-PCO Filtration ingeniously mirrors what the sun accomplishes with VOCs (Volatile Organic Compounds) in our atmosphere. Under natural conditions, UV rays from the sun interact with VOCs and, with the help of other elements in the air, break them down into "harmless" CO
-2
-2
-​
- . What if we could harness this process in our filtration systems?
+PCO Filtration ingeniously mirrors what the sun accomplishes with VOCs (Volatile Organic Compounds) in our atmosphere. Under natural conditions, UV rays from the sun interact with VOCs and, with the help of other elements in the air, break them down into "harmless" CO<sub>2</sub>. What if we could harness this process in our filtration systems?
 
-**UVC** lights, set at a non-ozone-producing safe wavelength of 275nm, energize a **TiO2** (titanium dioxide) mesh, triggering electron conformation changes. Water molecules passing by react with the energized mesh, producing **hydroxyl radicals** and other reactive species that **"attack" VOCs**, effectively chopping them into smaller pieces. 
+**UVC** lights, set at a non-ozone-producing safe wavelength of 275nm, energize a **TiO<sub>2</sub>** (titanium dioxide) mesh, triggering electron conformation changes. Water molecules passing by react with the energized mesh, producing **hydroxyl radicals** and other reactive species that **"attack" VOCs**, effectively chopping them into smaller pieces. 
 
-While simple VOCs can be broken down to the smallest unit of CO2 rapidly, larger and more complex VOCs might necessitate multiple passes and hydroxyl radical "chops". Over time, the photocatalytic filter addon progressively degrades the contaminants. 
+While simple VOCs can be broken down to the smallest unit of CO<sub>2</sub> rapidly, larger and more complex VOCs might necessitate multiple passes and hydroxyl radical "chops". Over time, the photocatalytic filter addon progressively degrades the contaminants. 
 
 # Utility Across Various Fronts:
 **Enhanced Efficiency:** 
@@ -36,7 +31,7 @@ Note: These are affiliate links. Please use them to support the project at no ad
 |                      | Amount                                            | Part                                                                                           | Source                                                                                                                                     |
 | ----                 | ----:                                             | ----                                                                                           | :----:                                                                                                                                     |
 | **Electronics**      |  2 pc                                             | 14520 275nnm UVC (2.5W _or_ 6W) <sup>1</sup>                                                                  | [AliExpress](https://s.click.aliexpress.com/e/_DDsC6F1) <BR>[AliExpress](https://s.click.aliexpress.com/e/_DDy4ivB)<BR>[AliExpress](https://www.aliexpress.com/item/4000898731245.html)                                                              |
-|                      |  1 pcs                                            | TiO2 Photocatalysis Mesh <sup>2</sup>                                                                          | [Ali-EU](https://s.click.aliexpress.com/e/_DnnKok7)<br>[Ali-US](https://s.click.aliexpress.com/e/_DC8levV)                                                                                    |
+|                      |  1 pcs                                            | TiO<sub>2</sub> Photocatalysis Mesh <sup>2</sup>                                                                          | [AliExpress](https://s.click.aliexpress.com/e/_DC8levV)                                                                                    |
 |                      |  1 pcs                                            | HEPA filter (for Xiaomi Mijia G1)                                                                           | [AliExpress](https://s.click.aliexpress.com/e/_EGPsFBt)                                                                                    |
 |                      |  2 pc                                             | 3010 Blower Fans                                                   | [AliExpress](https://s.click.aliexpress.com/e/_DCLQtaj)                                                                                    |
 |                      |  1 pc                                             | 12V Single Channel Relay                                                             | [AliExpress](https://s.click.aliexpress.com/e/_Dmt3tRH)                                                                                    |
@@ -47,5 +42,7 @@ Note: These are affiliate links. Please use them to support the project at no ad
 |                      |  2 pc                                             | M3xD5.0xL4.0 Heat Set Inserts  | [AliExpress](https://s.click.aliexpress.com/e/_DeVF8rT)                                                                                    |                                                    |  
 
 *<sup>1</sup>*  2.5W likely enough, but a stronger light will make a stronger reaction and give margin for UV degradation (80% strength left after 1000hrs seems pretty standard), but its unknown if the added heat creates a problem.<br>
-*<sup>2</sup>*  3mm mesh cut with scissors to two pieces of approximately 128x40mm. A single 500x500mm sheet will thus be enough for _alot_ of TiO2 filters<br>
+*<sup>2</sup>*  3mm mesh cut with scissors to two pieces of approximately 128x40mm. A single 500x500mm sheet will thus be enough for _alot_ of TiO<sub>2</sub> filters<br>
 *<sup>3</sup>*  Two of these slots are made for SHCS bolts if you've got them, but BHCS will fit just as well<br>
+
+![StealthMax_PCO.png](/assets/renders/pco1.png)
