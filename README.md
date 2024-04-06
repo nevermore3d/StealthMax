@@ -141,7 +141,7 @@ Different printers and use cases require different solutions - choose the Stealt
       [WORK IN PROGRESS / EARLY DEVELOPMENT]<br>
       Upgrade your StealthMax with a GC9A01 or CST816S display to monitor it's effectiveness at a glance.
 
-    - #### Photocatalytic Oxidation (PCO) Filtration [WIP]
+    - #### Photocatalytic Oxidation (PCO) Filtration
       [WORK IN PROGRESS / EARLY DEVELOPMENT]<br>
       PCO Filtration mimics the sun's natural breakdown of VOCs. Utilizing UVC lights and a TiO2 mesh, it generates hydroxyl radicals to dismantle VOCs into harmless compounds. This method enhances efficiency by addressing stubborn VOCs, maintains cleanliness between prints, and adapts to heat conditions for optimal performance.
       [Read more](./assets/_unsorted/PCO)
