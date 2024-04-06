@@ -134,14 +134,17 @@ Different printers and use cases require different solutions - choose the Stealt
    Increase the capability of your StealthMax further and explore our range of add-ons:
 
     - #### CPAP
+      [WORK IN PROGRESS / EARLY DEVELOPMENT]<br>
       Moves the intake closer to the hotend by attaching it directly to the gantry, maximizing VOC capture potential.
 
     - #### Displays
+      [WORK IN PROGRESS / EARLY DEVELOPMENT]<br>
       Upgrade your StealthMax with a GC9A01 or CST816S display to monitor it's effectiveness at a glance.
 
-    - #### Photocatalytic Oxidation (PCO) Filtration
+    - #### Photocatalytic Oxidation (PCO) Filtration [WIP]
+      [WORK IN PROGRESS / EARLY DEVELOPMENT]<br>
       PCO Filtration mimics the sun's natural breakdown of VOCs. Utilizing UVC lights and a TiO2 mesh, it generates hydroxyl radicals to dismantle VOCs into harmless compounds. This method enhances efficiency by addressing stubborn VOCs, maintains cleanliness between prints, and adapts to heat conditions for optimal performance.
-	  [Read more](./assets/_unsorted/PCO)
+      [Read more](./assets/_unsorted/PCO)
 
  - ### User Mods
    Find clever solutions and unique customizations with our collection of [User Mods](/UserMods) contributed by fellow community members.
