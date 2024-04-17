@@ -100,6 +100,8 @@ When 3D printing, especially with certain types of materials like plastics, vari
 -  **Acrylonitrile**: Present in emissions from ABS filament, acrylonitrile exposure has been associated with respiratory issues and may increase the risk of certain cancers.
     
 -  **Ethylene glycol**: Found in emissions from certain types of resins used in stereolithography (SLA) printing, ethylene glycol exposure can cause irritation of the eyes, skin, and respiratory system.
+
+-  **Butadiene**: Present in ABS-type filaments, as well as rubber additives, long exposures to Butadiene is a known accellerator or cardiovascular disease (heart attacks and strokes), increases the risk of certain cancers, and is suspected to impact fetal development (teratogen).
     
 Volatile Organic Compounds (VOCs) can have a range of health effects that vary based on factors such as concentration, duration of exposure, and individual susceptibility. Short-term exposure to high levels of VOCs can cause respiratory tract irritation, headaches, dizziness, and nausea. Prolonged exposure to certain VOCs is associated with more severe health issues, including respiratory problems, an increased risk of cancer, and vascular diseases such as stroke and heart attacks.
 
