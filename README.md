@@ -12,7 +12,7 @@ With its activated carbon and HEPA filtration, it aims to capture harmful fumes 
 1. [About](#1-about)<br>
    .1 [Nevermore3D](#11-nevermore3d)<br>
    .2 [StealthMax](#12-stealthmax)<br>
-   .3 [Volatile Organic Compounds (VOCs)](#13-volatile-organic-compounds-vocs)
+   .3 [Volatile Organic Compounds (VOCs) and Ultra-Fine Particles (UFPs)](#13-volatile-organic-compounds-vocs)
    
 2. [Getting Started](#2-getting-started)<br>
    .1 [Overview](#21-overview)<br>
@@ -88,7 +88,7 @@ With its 2-liter carbon basket, it can hold 20 times as much carbon as the Never
    Despite its compact size, the StealthMax S retains impressive filtering capacity thanks to its 1.4-liter carbon basket as well as the benefits of dual filtration.
    [Read more](./assets/_unsorted/Stealthmax_S)
 
-## (1.3) Volatile Organic Compounds (VOCs)
+## (1.3) Volatile Organic Compounds (VOCs) and Ultra-Fine Particles (UFPs)
 When 3D printing, especially with certain types of materials like plastics, various [volatile organic compounds (VOCs)](https://en.wikipedia.org/wiki/Volatile_organic_compound) can be emitted. The specific VOCs produced can vary depending on the type of filament or resin used and the printing conditions. Some common VOCs emitted during 3D printing include:
 
 -  **Styrene**: Commonly emitted when printing with ABS (Acrylonitrile Butadiene Styrene) filament. Styrene exposure has been linked to respiratory issues, irritation of the eyes, nose, and throat, and in some cases, long-term exposure may increase the risk of cancer.
@@ -101,7 +101,12 @@ When 3D printing, especially with certain types of materials like plastics, vari
     
 -  **Ethylene glycol**: Found in emissions from certain types of resins used in stereolithography (SLA) printing, ethylene glycol exposure can cause irritation of the eyes, skin, and respiratory system.
     
-These VOCs can have various health effects depending on factors such as concentration, duration of exposure, and individual susceptibility. Short-term exposure to high levels of VOCs can cause irritation of the respiratory tract, headaches, dizziness, and nausea. Long-term exposure to certain VOCs has been linked to more serious health effects, including respiratory issues and an increased risk of cancer.
+These VOCs can have various health effects depending on factors such as concentration, duration of exposure, and individual susceptibility. Short-term exposure to high levels of VOCs can cause irritation of the respiratory tract, headaches, dizziness, and nausea. Long-term exposure to certain VOCs has been linked to more serious health effects, including respiratory issues, an increased risk of cancer, or vascular didease (stroke and myocardial infarctions).
+
+Just as singe VOCs can get released into the air, agglomerates of (one or several different) VOCs, **UFPs**, are also released. These ultra-fine particles start their journey very small, only 10-15nm in diameter (a single VOC molecule is usually about a single nm, and the mesh of a hepa filter is 20x larger). 
+
+If left untreated, these Ultra-Fine Particles (UFPs) slowly merge into larger and larger droplets - in time reaching about 50-100nm, where they're large enough to be captured by a HEPA filter if not having leaked into the surrounding air before that. As UFPs often consists of viscous oils (like styrene) in room temp, any breathed UFPs wont build up in the airways as larger particles do, but are absorbed by the body - VOC constituent by VOC constinuent - like inhaled medication, having the same toxic effects in our bodies.
+Carbon porosity is not limited to micropores/VOCs (carbon pores <2nm), however, and can readily adsorb UFPs before agglomeration through mesopores (carbon pores 2-50nm), leaving larger particle agglomerates and carbon dust to be captured by the dual integrated HEPA filters of the Stealthmax.
 
 # (2) Getting Started
 
