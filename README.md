@@ -57,7 +57,7 @@ Nevermore3D empower the 3D printing community with resources to create their own
       -   Colour changes from bright purple to a dullish gray as it is being spent, giving a visual indication of when it is time to swap filter media!
       -   Available in Regular (750ml, 0.66kg) and XL (2300ml, 2kg)
 
-    - #### Nevermore Mix
+    - #### Nevermore Boost
       -   Pre-prepared 50/50 mix of Nevermore Carbon and Nevermore Scorch; a less-hassle, best-of-both-worlds printer filtration
       -   Combining the long-life och stellar adsorption capacity of activated carbon with Nevermore Scorch performance in hot surroundings.
       -   Ideal for most users with enclosed 3d printers printing ABS/ASA/PETG/PC in chamber temps of 50C +-10C.
