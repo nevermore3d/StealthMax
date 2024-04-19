@@ -202,7 +202,7 @@ Whether on GitHub or Discord, your input is valued and appreciated!
 
 
 # (5) Acknowledgments
-Special thanks to [@SanaaHamel](https://github.com/SanaaHamel), @TubaToothpasties, @Blamm, @Backslash, [@Exerqtor](https://github.com/Exerqtor), [@AdamV3D](https://github.com/AdamV3D) for all the help, nudges, support and additions to the project!
+Special thanks to [@SanaaHamel](https://github.com/SanaaHamel), @[FatalBulletHit](https://github.com/FatalBulletHit) @TubaToothpasties, @Blamm, @Backslash, [@Exerqtor](https://github.com/Exerqtor), [@AdamV3D](https://github.com/AdamV3D) for all the help, nudges, support and additions to the project!
 
 # (6) Showroom
 ![StealthMax Showroom](./assets/showroom/showroom_small.png)
