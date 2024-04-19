@@ -1,2 +1,0 @@
-Idea was to have a detachable screen for the SMS type layout with no center hub. Only problem is 4-pin is not enough (if not a I2c screen that can daisy chain on the sensor connection).
-![Magnetic 4 Pin Connector](./mag4pin.png)

@@ -1,4 +1,0 @@
-A custom version of the [Bowden Cap](/STLs/1_FlowChamber/1.3b_BowdenCap_Open.stl) designed to accomodate a PG7 cable gland with strain relief.<br>
-To be used for alternative cable routing through the Bowden Cap together with the [Cable Entry Cap (Closed)](/STLs/1_FlowChamber/1.4b_CableEntryCap_Closed.stl).
-
-Sources: [Bimed cable gland, PG7](https://www.traceparts.com/en/product/automationdirect-bimed-cable-gland-pg7-thread-type-polyamide-black-accepts-3-to-65mm-diameter-cable-ip68-with-strain-relief-package-of-5-mounting-hardware-included?CatalogPath=AUTOMATION_DIRECT%3AAUTOMATION_DIRECT.753756&Product=90-19072019-047238&PartNumber=BSSPX-21-W)

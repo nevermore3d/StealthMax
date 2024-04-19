@@ -1,1 +1,0 @@
-A modified [Voron Exhaust Fitting (Back Panel Mount)](/STLs/0_Mount/0a_BackPanelMount/StealthMax/M_0a.0_VoronExhaustFitting_BPM.stl) that can accommodate a modified version of the Enraged Rabbit Carrot Feeder Selector Encoder which can be used as a filament motion sensor.
