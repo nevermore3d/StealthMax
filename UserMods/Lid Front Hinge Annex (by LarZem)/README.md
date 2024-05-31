@@ -1,1 +1,0 @@
-A Lid Front Hinge with custom engraving.

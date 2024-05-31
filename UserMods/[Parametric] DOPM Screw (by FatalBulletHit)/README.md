@@ -1,0 +1,1 @@
+A parametric version of the default [Direct On Panel Mount Screw](/STLs/0_Mount/0b_DirectOnPanelMount/0b.1_DirectOnPanelMountScrew_DOPM.stl) for panels thicker than 3mm.

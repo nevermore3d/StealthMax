@@ -1,0 +1,1 @@
+A parametric version of the default [Lid Frame](/STLs/3_Lid/StealthMax/M_3.0_LidFrame.stl) and [Lid Panel Holder](/STLs/3_Lid/StealthMax/M_3.1_LidPanelHolder.stl) for non standard lid panels.
