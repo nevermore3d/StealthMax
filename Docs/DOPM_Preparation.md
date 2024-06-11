@@ -27,4 +27,24 @@ Start by removing the built-in support material on these parts (indicated by gre
 
 ## (1.2) Heat-Set Inserts
 
-TODO
+There are 26 heat-set inserts in total to be inserted on these parts (indicated by the red circles).
+
+### Lid Front Hinge x2 ([3.2_LidFrontHinge.stl](/STLs/3_Lid/3.2_LidFrontHinge.stl))
+![DOPM Lid Front Hinge Heat-Set Inserts](/assets/docs/dopm_prep_insert_lidfronthinge_300.png)
+
+### Removable Air Duct x1 ([M_1b.1_RemovableAirDuct_DOPM.stl](/STLs/1_FlowChamber/1b_DirectOnPanelMount/StealthMax/M_1b.1_RemovableAirDuct_DOPM.stl))
+![DOPM Removable Air Duct Heat-Set Insert](/assets/docs/dopm_prep_insert_removableairduct_300.png)
+
+### Chamber Exhaust Connection x2 ([M_1b.1_RemovableAirDuct_DOPM.stl](/STLs/1_FlowChamber/1b_DirectOnPanelMount/StealthMax/M_1b.1_RemovableAirDuct_DOPM.stl))
+![DOPM Chamber Exhaust Connection Heat-Set Inserts](/assets/docs/dopm_prep_insert_chamberexhaustconnection_300.png)
+
+### Flow Chamber x13 ([M_1b.0_FlowChamber_DOPM.stl](/STLs/1_FlowChamber/1b_DirectOnPanelMount/StealthMax/M_1b.0_FlowChamber_DOPM.stl))
+![DOPM Flow Chamber Heat-Set Inserts](/assets/docs/dopm_prep_insert_flowchamber1_300.png)
+![DOPM Flow Chamber Heat-Set Inserts](/assets/docs/dopm_prep_insert_flowchamber2_300.png)
+
+### Main Chamber x6 ([M_2.0_MainChamber.stl](/STLs/2_MainChamber/StealthMax/M_2.0_MainChamber.stl))
+![DOPM Main Chamber Heat-Set Inserts](/assets/docs/dopm_prep_insert_mainchamber1_300.png)
+![DOPM Main Chamber Heat-Set Inserts](/assets/docs/dopm_prep_insert_mainchamber2_300.png)
+
+### Carbon Basket x2 ([M_2.1_CarbonBasket.stl](/STLs/2_MainChamber/StealthMax/M_2.1_CarbonBasket.stl))
+![DOPM Carbon Basket Heat-Set Inserts](/assets/docs/dopm_prep_insert_carbonbasket_300.png)
