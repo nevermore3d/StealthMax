@@ -1,10 +1,8 @@
-# Direct On Panel Mount (DOPM)
+# Direct On Panel Mount (DOPM) Preparation
 
 These are instructions for the StealthMax (300) Direct On Panel Mount (DOPM).
 
-# (1) Preparation
-
-## (1.1) Support removal
+## Support removal
 
 Start by removing the built-in support material on these parts (indicated by green color). 
 
@@ -25,7 +23,7 @@ Start by removing the built-in support material on these parts (indicated by gre
 
 ![DOPM Lid Frame Supports](/assets/docs/dopm_prep_supp_flowchamber_300.png)
 
-## (1.2) Heat-Set Inserts
+## Heat-Set Inserts
 
 There are 26 heat-set inserts in total to be inserted on these parts (indicated by the red circles).
 
@@ -48,3 +46,5 @@ There are 26 heat-set inserts in total to be inserted on these parts (indicated 
 
 ### Carbon Basket x2 ([M_2.1_CarbonBasket.stl](/STLs/2_MainChamber/StealthMax/M_2.1_CarbonBasket.stl))
 ![DOPM Carbon Basket Heat-Set Inserts](/assets/docs/dopm_prep_insert_carbonbasket_300.png)
+
+[Next: Lid Assembly >](Lid_Assembly.md)
