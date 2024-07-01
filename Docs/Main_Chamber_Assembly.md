@@ -25,10 +25,10 @@ Hardware:
 
 3. Attach the 3mm sponge cord all around [M_2.0_MainChamber.stl](/STLs/2_MainChamber/StealthMax/M_2.0_MainChamber.stl) using a thin layer of super glue, according to the [instructions on the Wiki](https://github.com/nevermore3d/StealthMax/wiki/Assembly#lid).
 
-!!!PIC TO-DO!!!
+![Sponge cord attached to Main Chamber](/assets/docs/mainchamber_sponge_cord_300.png)
 
 4. Optional: Dry-fit the [lid assembly](Lid_Assembly.md) on top of [M_2.0_MainChamber.stl](/STLs/2_MainChamber/StealthMax/M_2.0_MainChamber.stl) to ensure all latches properly close. Note that [3.2_LidFrontHinge.stl](/STLs/3_Lid/3.2_LidFrontHinge.stl) will be attached to [M_2.0_MainChamber.stl](/STLs/2_MainChamber/StealthMax/M_2.0_MainChamber.stl) in a later step.
 
-![Lid Latches attached to Main Chamber](/assets/docs/mainchamber_lid_dryfit_300.png)
+![Main Chamber dry fit](/assets/docs/mainchamber_lid_dryfit_300.png)
 
-[Next: Carbon Basket Assembly >](Main_Chamber_Assembly.md)
+[Next: Direct On Panel Mount (DOPM) Electronics >](DOPM_Electronics.md)
