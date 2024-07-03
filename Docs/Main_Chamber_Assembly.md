@@ -31,4 +31,4 @@ Hardware:
 
 ![Main Chamber dry fit](/assets/docs/mainchamber_lid_dryfit_300.png)
 
-[Next: Direct On Panel Mount (DOPM) Electronics >](DOPM_Electronics.md)
+[Next: Direct On Panel Mount (DOPM) Electronics Preparation >](DOPM_Electronics_Preparation.md)
