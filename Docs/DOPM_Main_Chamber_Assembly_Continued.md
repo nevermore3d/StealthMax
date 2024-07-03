@@ -22,7 +22,7 @@ Hardware:
 ## Direct On Panel Mount (DOPM) Main Chamber Assembly Continued
 
 1. Route the sensor-out harness through the bottom of [M_2.0_MainChamber.stl](/STLs/2_MainChamber/StealthMax/M_2.0_MainChamber.stl) and into the center area.
-![Main chamber sensor-out routed](/assets/docs/dopm_mainchamber_sensor_out_routed_bottom.png)
+![Main chamber sensor-out routed bottom](/assets/docs/dopm_mainchamber_sensor_out_routed_bottom.png)
 ![Main chamber sensor-out routed](/assets/docs/dopm_mainchamber_sensor_out_routed.png)
 
 2. Insert the [M_2.7_IntakeSensorStackAccessLatch.stl](/STLs/2_MainChamber/StealthMax/M_2.7_IntakeSensorStackAccessLatch.stl), [M_2.8_BowdenTubeAccessLatch.stl](/STLs/2_MainChamber/StealthMax/M_2.8_BowdenTubeAccessLatch.stl), and [M_2.6a_PicoAccessLatch.stl](/STLs/2_MainChamber/StealthMax/M_2.6a_PicoAccessLatch.stl), and fasten the [M_2.0_MainChamber.stl](/STLs/2_MainChamber/StealthMax/M_2.0_MainChamber.stl) to the [M_1b.0_FlowChamber_DOPM.stl](/STLs/1_FlowChamber/1b_DirectOnPanelMount/StealthMax/M_1b.0_FlowChamber_DOPM.stl) using 12 M3x6 BHCS.
