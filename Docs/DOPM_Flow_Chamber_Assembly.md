@@ -16,7 +16,7 @@ Hardware:
 - Female Dupont pins
 - 1x 5-pin female DuPont connector housing
 - 1x Delta BFB0712HF (fan)
-- 2x M3x10 (or M3x8) BHCS
+- 1x M3x10 (or M3x8) BHCS
 - 3x M2x4 FHCS
 
 ## Direct On Panel Mount (DOPM) Smart Electronics
