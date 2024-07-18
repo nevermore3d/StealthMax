@@ -200,6 +200,10 @@ See our interactive [Bill of Materials / Sourcing Guide](https://bit.ly/Neveremo
 Report any difficulties, suggest ideas, propose solutions, and create new designs or enhance existing ones.
 Whether on GitHub or Discord, your input is valued and appreciated!
 
+[Nevermore Discord server](https://discord.gg/H8tZ9fZVQ4).
+
+[![Discord](https://img.shields.io/discord/1017933489779245137?style=flat-square&logo=discord&logoColor=white&label=Discord&labelColor=%237785cc&color=grey&link=https%3A%2F%2Fdiscord.gg%2FH8tZ9fZVQ4)](https://discord.gg/H8tZ9fZVQ4)
+
 
 # (5) Acknowledgments
 Special thanks to [@SanaaHamel](https://github.com/SanaaHamel), @[FatalBulletHit](https://github.com/FatalBulletHit) @TubaToothpasties, @Blamm, @Backslash, [@Exerqtor](https://github.com/Exerqtor), [@AdamV3D](https://github.com/AdamV3D) for all the help, nudges, support and additions to the project!
