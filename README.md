@@ -191,7 +191,7 @@ For those who value convenience and simplicity, kits eliminate the guesswork and
 ## (3.2) Self Sourcing (BOM)
 For those who find satisfaction in the journey, each meticulously sourced component adds to the story of their creation.
 
-See our interactive [Bill of Materials / Sourcing Guide](https://bit.ly/NeveremoreStealthMaxBOM) for a complete list of components.
+See our interactive [Bill of Materials / Sourcing Guide](https://bit.ly/NevermoreStealthMaxBOM) for a complete list of components.
 
 
 # (4) Contributing
