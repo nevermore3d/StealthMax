@@ -5,8 +5,7 @@
 The Nevermore StealthMax is an air filter developed for 3D printers.
 With its activated carbon and HEPA filtration, it aims to capture harmful fumes and unpleasant odors generated when melting plastics, creating a safer and more pleasant environment for makers.
 
-[
-![Buy Me a Coffee](https://img.shields.io/badge/Support_Nevermore3D-grey?style=flat-square&logo=buymeacoffee&logoColor=black&label=Buy%20Me%20a%20Coffee&labelColor=FFDD00)](https://www.buymeacoffee.com/nevermore3d) [![Discord](https://img.shields.io/discord/1017933489779245137?style=flat-square&logo=discord&logoColor=white&label=Discord&labelColor=%237785cc&color=grey&link=https%3A%2F%2Fdiscord.gg%2FH8tZ9fZVQ4)](https://discord.gg/H8tZ9fZVQ4)
+[![Buy Me a Coffee](https://img.shields.io/badge/Support_Nevermore3D-grey?style=flat-square&logo=buymeacoffee&logoColor=black&label=Buy%20Me%20a%20Coffee&labelColor=FFDD00)](https://www.buymeacoffee.com/nevermore3d) [![Discord](https://img.shields.io/discord/1017933489779245137?style=flat-square&logo=discord&logoColor=white&label=Discord&labelColor=%237785cc&color=grey&link=https%3A%2F%2Fdiscord.gg%2FH8tZ9fZVQ4)](https://discord.gg/H8tZ9fZVQ4)
 
 # Table of Contents
 1. [About](#1-about)<br>
@@ -157,7 +156,8 @@ Different printers and use cases require different solutions - choose the Stealt
 
 ## (2.2) Documentation
  - ### Manual
-   soon<sup>tm</sup>
+   soon<sup>tm</sup><br>
+   In the meantime, you may find the [DOPM focused installation documentation](https://github.com/nevermore3d/StealthMax/blob/main/Docs/DOPM_Preparation.md) useful.
 
  - ### Print Guide
    Our interactive [Print Guide](https://bit.ly/NevermoreStealthMaxPrintGuide) helps you find the parts you need to print and lets you download all the required STL files at once.
@@ -197,15 +197,21 @@ See our interactive [Bill of Materials / Sourcing Guide](https://bit.ly/Nevermor
 # (4) Contributing
 **We welcome your contributions!** <br>
 Report any difficulties, suggest ideas, propose solutions, and create new designs or enhance existing ones.
-Whether on GitHub or Discord, your input is valued and appreciated!
-
-[Nevermore Discord server](https://discord.gg/H8tZ9fZVQ4).
+Whether on GitHub or the [Nevermore Discord](https://discord.gg/H8tZ9fZVQ4), your input is valued and appreciated!
 
 [![Discord](https://img.shields.io/discord/1017933489779245137?style=flat-square&logo=discord&logoColor=white&label=Discord&labelColor=%237785cc&color=grey&link=https%3A%2F%2Fdiscord.gg%2FH8tZ9fZVQ4)](https://discord.gg/H8tZ9fZVQ4)
 
 
 # (5) Acknowledgments
-Special thanks to [@SanaaHamel](https://github.com/SanaaHamel), @[FatalBulletHit](https://github.com/FatalBulletHit) @TubaToothpasties, @Blamm, @Backslash, [@Exerqtor](https://github.com/Exerqtor), [@AdamV3D](https://github.com/AdamV3D) for all the help, nudges, support and additions to the project!
+Special thanks for all the help, nudges, support and additions to the project, goes to:
+- [@SanaaHamel](https://github.com/SanaaHamel)
+- [@FatalBulletHit](https://github.com/FatalBulletHit)
+- @TubaToothpasties
+- @Blamm
+- @Backslash
+- [@Exerqtor](https://github.com/Exerqtor)
+- [@AdamV3D](https://github.com/AdamV3D)
+- [@rajenki](https://github.com/rajenki)
 
 # (6) Showroom
 ![StealthMax Showroom](./assets/showroom/showroom_small.png)
