@@ -207,7 +207,7 @@ Special thanks for all the help, nudges, support and additions to the project, g
 - [@SanaaHamel](https://github.com/SanaaHamel)
 - [@FatalBulletHit](https://github.com/FatalBulletHit)
 - @TubaToothpasties
-- @Blamm
+- [@Blamm](https://github.com/bartlammers)
 - @Backslash
 - [@Exerqtor](https://github.com/Exerqtor)
 - [@AdamV3D](https://github.com/AdamV3D)
