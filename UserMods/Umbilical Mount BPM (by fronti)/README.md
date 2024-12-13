@@ -1,0 +1,1 @@
+I couldn't get a decent umbilical passthrough working for my Stealthmax S, so i merged the Back Panel Mount with [Another Umbilical Toolhead](https://www.printables.com/model/411846-another-toolhead-umbilical-for-voron-24).
