@@ -17,18 +17,18 @@ Hardware:
 
 1. Attach [3.2_LidFrontHinge.stl](/STLs/3_Lid/3.2_LidFrontHinge.stl) to the hinge location on [M_3.1_LidPanelHolder.stl](/STLs/3_Lid/StealthMax/M_3.1_LidPanelHolder.stl) using 2x M3x25 SHCS. Do not overtighten, as you are threading directly into plastic.
 
-![Lid Front Hinge attach to Lid Panel Holder](/assets/docs/lid_assembly_fronthinge_300.png)
+![Lid Front Hinge attach to Lid Panel Holder](/assets/docs/DOPM/lid_assembly_fronthinge_300.png)
 
 2. Flip [M_3.1_LidPanelHolder.stl](/STLs/3_Lid/StealthMax/M_3.1_LidPanelHolder.stl) over and fully insert the 250x3mm round acrylic panel (or Ghetto Panel mod) in the center.
 
-![Acrylic Panel insert into Lid Panel Holder](/assets/docs/lid_assembly_acrylicpanel_300.png)
+![Acrylic Panel insert into Lid Panel Holder](/assets/docs/DOPM/lid_assembly_acrylicpanel_300.png)
 
 3. Insert [M_3.0_LidFrame.stl](/STLs/3_Lid/StealthMax/M_3.0_LidFrame.stl) into [M_3.1_LidPanelHolder.stl](/STLs/3_Lid/StealthMax/M_3.1_LidPanelHolder.stl), aligning the notches so it sits flush.
 
-![Lid Frame insert into Lid Panel Holder](/assets/docs/lid_assembly_lidframe_detail_300.png)
+![Lid Frame insert into Lid Panel Holder](/assets/docs/DOPM/lid_assembly_lidframe_detail_300.png)
 
 4. Rotate [M_3.0_LidFrame.stl](/STLs/3_Lid/StealthMax/M_3.0_LidFrame.stl) so it becomes locked into [M_3.1_LidPanelHolder.stl](/STLs/3_Lid/StealthMax/M_3.1_LidPanelHolder.stl).
 
-![Lid Frame insert locking](/assets/docs/lid_assembly_lidframe_rotate_300.png)
+![Lid Frame insert locking](/assets/docs/DOPM/lid_assembly_lidframe_rotate_300.png)
 
 [Next: Main Chamber Assembly >](Main_Chamber_Assembly.md)
