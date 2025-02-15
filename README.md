@@ -1,5 +1,5 @@
 
-![StealthMax](./assets/renders/sm_300.png)
+![StealthMax](.../../assets/renders/sm_300.png)
 
 # Nevermore StealthMax
 The Nevermore StealthMax is an air filter developed for 3D printers.
@@ -84,7 +84,7 @@ With its 2-liter carbon basket, it can hold 20 times as much carbon as the Never
  - #### StealthMax S (250)
    Making safer printing more accessible, the StealthMax S was designed for printing on a 250x250mm bed.<br>
    Despite its compact size, the StealthMax S retains impressive filtering capacity thanks to its 1.4-liter carbon basket as well as the benefits of dual filtration.
-   [Read more](./assets/_unsorted/Stealthmax_S)
+   [Read more](.../../assets/_unsorted/Stealthmax_S)
 
 ## (1.3) Volatile Organic Compounds (VOCs) and Ultra-Fine Particles (UFPs)
 When 3D printing, especially with certain types of materials like plastics, various [volatile organic compounds (VOCs)](https://en.wikipedia.org/wiki/Volatile_organic_compound) can be emitted. The specific VOCs produced can vary depending on the type of filament or resin used and the printing conditions. Some common VOCs emitted during 3D printing include:
@@ -128,7 +128,7 @@ Different printers and use cases require different solutions - choose the Stealt
       The Back Panel Mount is designed to be used with Voron printers (in particular Voron 2 and Trident) by utilizing the back panel's cutout and mounting the StealthMax to the top 2020 extrusion.
     - #### Direct On Panel Mount (DOPM)
       Alternatively, the Direct On Panel Mount can be used to mount a StealthMax on pretty much any panel.
-	  [Read more](./assets/_unsorted/Direct-On-Panel_Mount)
+	  [Read more](.../../assets/_unsorted/Direct-On-Panel_Mount)
 
  - ### Basic or Smart?
     - #### Basic
@@ -149,7 +149,7 @@ Different printers and use cases require different solutions - choose the Stealt
     - #### Photocatalytic Oxidation (PCO) Filtration
       [WORK IN PROGRESS / EARLY DEVELOPMENT]<br>
       PCO Filtration mimics the sun's natural breakdown of VOCs. Utilizing UVC lights and a TiO2 mesh, it generates hydroxyl radicals to dismantle VOCs into harmless compounds. This method enhances efficiency by addressing stubborn VOCs, maintains cleanliness between prints, and adapts to heat conditions for optimal performance.
-      [Read more](./assets/_unsorted/PCO)
+      [Read more](.../../assets/_unsorted/PCO)
 
  - ### User Mods
    Find clever solutions and unique customizations with our collection of [User Mods](/UserMods) contributed by fellow community members.
@@ -215,5 +215,5 @@ Special thanks for all the help, nudges, support and additions to the project, g
 - [@rajenki](https://github.com/rajenki)
 
 # (6) Showroom
-![StealthMax Showroom](./assets/showroom/showroom_small.png)
-![StealthMax Promo](./assets/showroom/showroom_promo.png)
+![StealthMax Showroom](.../../assets/showroom/showroom_small.png)
+![StealthMax Promo](.../../assets/showroom/showroom_promo.png)

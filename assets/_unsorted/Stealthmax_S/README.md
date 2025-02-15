@@ -1,4 +1,4 @@
-![StealthMax](/assets/renders/sm_250_300_comparison.gif)
+![StealthMax](../../assets/renders/sm_250_300_comparison.gif)
 # **Stealthmax [S]**
 Lets decrease size a bit shall we, in order to print the Stealthmax on machines with a 250mm bed? 
 
@@ -12,5 +12,5 @@ Lets decrease size a bit shall we, in order to print the Stealthmax on machines 
 - Most everything else remains the same from the regular BOM, including sensors, pico, buck converter, with just a few minor bolt changes: see out interactive [BOM / Sourcing Guide](https://bit.ly/NeveremoreStealthMaxBOM)
 
 Heres how the smaller version compares to the larger:
-![StealthMax](/assets/renders/sm_250_300_comparison.png)
-![StealthMax](/assets/renders/sm_250.png)
+![StealthMax](../../assets/renders/sm_250_300_comparison.png)
+![StealthMax](../../assets/renders/sm_250.png)

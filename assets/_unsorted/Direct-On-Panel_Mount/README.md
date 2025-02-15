@@ -1,8 +1,8 @@
 # Direct On Panel Mount (DOPM) instructions
 
-![Direct On Panel Mount Front](/assets/renders/dopm1.png)
+![Direct On Panel Mount Front](../../assets/renders/dopm1.png)
 
-![Direct On Panel Mount Below](/assets/renders/dopm2.png)
+![Direct On Panel Mount Below](../../assets/renders/dopm2.png)
 
 If you don't have a Voron panel cutout, or want to mount a StealthMax on a different panel/surface, follow the instructions below for Direct On Panel Mount (DOPM).
 
@@ -26,7 +26,7 @@ Use the [Print Guide](https://bit.ly/NevermoreStealthMaxPrintGuide) to get a lis
     * Optional: use a marker to mark these holes on the panel below, so you can be sure to drill the 40mm holes in the correct locations in the next step.
   * For the 3 holes around the 40mm exhaust cutout, use the 3.4mm holes to drill through the panel below. Don't worry about expanding the printed holes slightly, it won't matter.
 
-![Direct On Panel Mount 3mm hole locations](/assets/docs/DOPM/dopm_3mm_hole_locations.png)
+![Direct On Panel Mount 3mm hole locations](../../assets/docs/DOPM/dopm_3mm_hole_locations.png)
 
 * Once you have drilled the 8 holes in the exact right spots, remove the Flow Chamber from the panel. Use the 40mm hole saw to drill out the 5 40mm holes in the panel. These holes will serve as air intakes/exhaust and as the mounting screws for the StealthMax on the panel.
 * Verify that the printed 40mm screws will fit through the 5 holes you just drilled (and that they cover any rough edges that may be left).
