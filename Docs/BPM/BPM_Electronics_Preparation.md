@@ -57,26 +57,27 @@ Tools:
 ![Raspberry Pi Pico W soldered](../../assets/docs/DOPM/dopm_electronics_pi_pico_soldered.png)
 
 1. Crimp 4 DuPont female pins to the 325mm yellow, pink, black, and green 26 AWG wires. Insert the crimped wires into a 4-pin DuPont connector housing.
-![Yellow/Pink/Black/Green DuPont connector](../../assets/docs/DOPM/dopm_electronics_ypbg_dupont.png)
+![Yellow/Pink/Black/Green DuPont connector](../../assets/docs/BPM/bpm_electronics_ypbg_dupont.JPEG)
 
 1. Crimp 4 DuPont female pins to the 300mm blue, gray, black, and green 26 AWG wires. Insert the crimped wires into a 4-pin DuPont connector housing.
-![Blue/Gray/Black/Green DuPont connector](../../assets/docs/DOPM/dopm_electronics_bgbg_dupont.png)
+![Blue/Gray/Black/Green DuPont connector](../../assets/docs/BPM/bpm_electronics_bgbg_dupont.JPEG)
 
 1. Crimp 2 DuPont female pins to the other end of the blue and gray wires from step 7, and yellow and pink wires from step 8. Do not crimp the black and green wires yet on either cable harness.
-![Blue/Gray/Yellow/Pink DuPont pins](../../assets/docs/DOPM/dopm_electronics_bgyp_dupont.png)
+![Blue/Gray/Yellow/Pink DuPont pins](../../assets/docs/BPM/bpm_electronics_bgyp_dupont.JPEG)
 
 1.  Crimp 2 DuPont female pins to the 100mm violet and brown 26 AWG wires.
-2.  Crimp 4 JST-PH 2.0 male pins to the 100mm violet and brown 26 AWG wires, and 200mm black and red 24 AWG wires. Insert the crimped violet and brown wires into a 4-pin DuPont connector housing, and the crimped violet, brown, red, and black wires into a 4-pin JST-PH 2.0 connector housing. 
-    - If you do not have JST-PH 2.0 male pins/female housing, solder the violet, brown, red, and black wires directly to a JST-PH 2.0 male housing, or a pre-crimped JST-PH 2.0 male pins/female housing assembly.
-![DuPont JST-PH harness](../../assets/docs/DOPM/dopm_electronics_dupont_jst.png)
+2.  Crimp 4 JST-PH 2.0 male pins to the 100mm violet and brown 26 AWG wires, and 200mm black and red 24 AWG wires. Insert the crimped violet and brown wires into a 4-pin DuPont connector housing, and the crimped violet, brown, red, and black wires into a 4-pin JST-PH 2.0 connector housing. There is a good example of this in the DOPM guide.
+    - If you do not have JST-PH 2.0 male pins/female housing, solder the violet, brown, red, and black wires directly to a JST-PH 2.0 male housing, or a pre-crimped JST-PH 2.0 male pins/female housing assembly. If soldering, heatshrink is recommended to prevent shorts. (This is what this guide will show)
+![DuPont JST-PH harness Soldering](../../assets/docs/BPM/bpm_electronics_dupont_jst1.JPEG)
+![DuPont JST-PH harness Heatshrink](../../assets/docs/BPM/bpm_electronics_dupont_jst2.JPEG)
+![DuPont JST-PH harness](../../assets/docs/BPM/bpm_electronics_dupont_jst3.JPEG)
 
 1.  Crimp 2 DuPont female pins to the red and black wires from step 11 and the red and black wires from step 2. Two wires into one DuPont pin is a tight fit, but it can be done with some patience.
-![DuPont JST-PH M8 harness](../../assets/docs/DOPM/dopm_electronics_dupont_jst_m8.png)
+![DuPont JST-PH M8 harness](../../assets/docs/BPM/bpm_electronics_dupont_jst_m8.JPEG)
 
 1.  Insert the double-crimped red and black wires into a 4-pin DuPont connector housing.
-![DuPont JST-PH M8 buck converter harness](../../assets/docs/DOPM/dopm_electronics_dupont_jst_m8_buck.png)
     
-1.  Crimp 4 DuPont female pins to the 50mm red and black 24 AWG wires (both ends). Insert the crimped wires into a 4-pin DuPont connector housing and the other ends into the remaining slots of the DuPont connector housing of step 13. 
-![Dupont JST-PH M8 buck converter Pi Pico harness](../../assets/docs/DOPM/dopm_electronics_dupont_jst_m8_buck_pico.png)
+2.  Crimp 4 DuPont female pins to the 50mm red and black 24 AWG wires (both ends). Insert the crimped wires into a 4-pin DuPont connector housing and the other ends into the remaining slots of the DuPont connector housing of step 13. 
+![Dupont JST-PH M8 buck converter Pi Pico harness](../../assets/docs/BPM/bpm_electronics_dupont_jst_m8_buck_pico.JPEG)
 
-[Next: Direct On Panel Mount (DOPM) Flow Chamber Assembly >](DOPM_Flow_Chamber_Assembly.md)
+[Next: Back Panel Mount (BPM) Flow Chamber Assembly >](BPM_Flow_Chamber_Assembly.md)
