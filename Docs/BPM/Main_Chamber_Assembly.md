@@ -5,8 +5,8 @@ These are instructions for the StealthMax (300) Back Panel Mount (BPM) or Direct
 ## Parts Required
 
 Printed parts:
-- 1x [M_2.0_MainChamber.stl](/STLs/2_MainChamber/StealthMax/M_2.0_MainChamber.stl)
-- 3x [3.3_LidLatch.stl](/STLs/3_Lid/3.3_LidLatch.stl)
+- 1x [M_2.0_MainChamber.stl](../../STLs/2_MainChamber/StealthMax/M_2.0_MainChamber.stl)
+- 3x [3.3_LidLatch.stl](../../STLs/3_Lid/3.3_LidLatch.stl)
 
 Hardware:
 - 6x M3x6 BHCS
@@ -15,9 +15,9 @@ Hardware:
 
 ## Main Chamber Assembly
 
-1. Ensure your 3x [3.3_LidLatch.stl](/STLs/3_Lid/3.3_LidLatch.stl) are able to freely rotate after gently snapping them loose according to the [instructions on the Wiki](https://github.com/nevermore3d/StealthMax/wiki/Assembly#compression-latches).
+1. Ensure your 3x [3.3_LidLatch.stl](../../STLs/3_Lid/3.3_LidLatch.stl) are able to freely rotate after gently snapping them loose according to the [instructions on the Wiki](https://github.com/nevermore3d/StealthMax/wiki/Assembly#compression-latches).
 
-2. Attach [3.3_LidLatch.stl](/STLs/3_Lid/3.3_LidLatch.stl) to the three sides of [M_2.0_MainChamber.stl](/STLs/2_MainChamber/StealthMax/M_2.0_MainChamber.stl) with the double M3 heat-set inserts near the top, using 2x M3x6 BHCS for each latch. Do not overtighten.
+2. Attach [3.3_LidLatch.stl](../../STLs/3_Lid/3.3_LidLatch.stl) to the three sides of [M_2.0_MainChamber.stl](../../STLs/2_MainChamber/StealthMax/M_2.0_MainChamber.stl) with the double M3 heat-set inserts near the top, using 2x M3x6 BHCS for each latch. Do not overtighten.
 
 ![Lid Latch attach to Main Chamber](../../assets/docs/BPM/mainchamber_assembly_lidlatch_300.JPEG)
 
