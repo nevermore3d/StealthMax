@@ -1,6 +1,6 @@
 # Back Panel Mount (BPM) Smart Electronics Preparation
 
-These are instructions for the StealthMax (300) Smart Back Panel Mount (BPM).
+These are instructions for the StealthMax (300) Smart Back Panel Mount (BPM). The majority of this part is borrowed from the DOPM documentation but with replaced images for continuity.
 
 ## Parts Required
 
@@ -38,18 +38,18 @@ Tools:
    - Add the [minimal example configuration](https://github.com/SanaaHamel/nevermore-controller#klipper-config-minimal) to your printer.cfg.
    - We'll add the Nevermore macros from the Nevermore Controller Setup Guide to the relevant print start/end macros, and calibrate the sensors at a later stage.
 
-2. Remove the nut from the M8 threaded DC connector and solder 75mm red and black 24 AWG wires to it. Apply a small section of heat shrink tubing to both leads, then slide the cables through the [1.4a_CableEntryCap_M8Barrel.stl](/STLs/1_FlowChamber/1.4a_CableEntryCap_M8Barrel.stl) and thread in the M8 threaded DC connector securely. Adding heatshrink over the soldered joints would be a good idea at this point.
+1. Remove the nut from the M8 threaded DC connector and solder 75mm red and black 24 AWG wires to it. Apply a small section of heat shrink tubing to both leads, then slide the cables through the [1.4a_CableEntryCap_M8Barrel.stl](/STLs/1_FlowChamber/1.4a_CableEntryCap_M8Barrel.stl) and thread in the M8 threaded DC connector securely. Adding heatshrink over the soldered joints would be a good idea at this point.
 ![M8 threaded DC connector soldered](../../assets/docs/DOPM/dopm_electronics_m8_dc_soldered.png)
 ![M8 threaded DC connector inserted](../../assets/docs/BPM/bpm_electronics_m8_dc_inserted.JPEG)
 
-3. Solder a right angle 4-pin male header to the Matek Systems MBEC6S/MBEC2A buck converter.
+1. Solder a right angle 4-pin male header to the Matek Systems MBEC6S/MBEC2A buck converter.
 ![Matek Systems MBEC6S/MBEC2A buck converter soldered](../../assets/docs/BPM/bpm_electronics_buck_converter_soldered1.JPEG)
 ![Matek Systems MBEC6S/MBEC2A buck converter soldered](../../assets/docs/BPM/bpm_electronics_buck_converter_soldered2.JPEG)
 
-4. Solder the straight 4-pin male header to each of the BME280 PCBs.
+1. Solder the straight 4-pin male header to each of the BME280 PCBs.
 ![BME280 PCBs soldered](../../assets/docs/BPM/bpm_electronics_bme_soldered.JPEG)
 
-5. Add the SGP40/SGP30 PCBs on top of each of the pins soldered to the BME280 PCBs and solder it from the other side. Take extra care to not leave excess solder here, as it may interfere with the DuPont connector later.
+1. Add the SGP40/SGP30 PCBs on top of each of the pins soldered to the BME280 PCBs and solder it from the other side. Take extra care to not leave excess solder here, as it may interfere with the DuPont connector later.
 ![SGP40 PCBs soldered](../../assets/docs/BPM/bpm_electronics_bme_sgp40_soldered.JPEG)
 ![BME280 SGP40 pins clearance](../../assets/docs/BPM/bpm_electronics_bme_sgp40_clearance.JPEG)
 
@@ -77,7 +77,7 @@ Tools:
 
 1.  Insert the double-crimped red and black wires into a 4-pin DuPont connector housing.
     
-2.  Crimp 4 DuPont female pins to the 50mm red and black 24 AWG wires (both ends). Insert the crimped wires into a 4-pin DuPont connector housing and the other ends into the remaining slots of the DuPont connector housing of step 13. 
+1.  4 DuPont female pins to the 50mm red and black 24 AWG wires (both ends). Insert the crimped wires into a 4-pin DuPont connector housing and the other ends into the remaining slots of the DuPont connector housing of step 13. 
 ![Dupont JST-PH M8 buck converter Pi Pico harness](../../assets/docs/BPM/bpm_electronics_dupont_jst_m8_buck_pico.JPEG)
 
 [Next: Back Panel Mount (BPM) Flow Chamber Assembly >](BPM_Flow_Chamber_Assembly.md)

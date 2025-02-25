@@ -1,6 +1,6 @@
 # Back Panel Mount (BPM) Flow Chamber Assembly
 
-These are instructions for the StealthMax (300) Smart Back Panel Mount (BPM).
+These are instructions for the StealthMax (300) Smart Back Panel Mount (BPM). The majority of this part is borrowed from the DOPM documentation but with replaced images for continuity.
 
 ## Parts Required
 
@@ -21,10 +21,10 @@ Hardware:
 
 ## Back Panel Mount (BPM) Smart Electronics
 
-1. Route the power harness from preparation step 14 through the [M_1a.0_FlowChamber_BPM.stl](../../STLs/1_FlowChamber/1a_BackPanelMount/StealthMax/M_1a.0_FlowChamber_BPM.stl) as follows, and connect the Matek Systems MBEC6S/MBEC2A buck converter.
+1. Route the power harness from preparation step 14 through the [M_1a.0_FlowChamber_BPM.stl](../../STLs/1_FlowChamber/1a_BackPanelMount/StealthMax/M_1a.0_FlowChamber_BPM.stl) as follows, and connect the Matek Systems MBEC6S/MBEC2A buck converter. Double check the buck wiring as doing incorrectly could fry the pico.
 ![BPM power harness routed](../../assets/docs/BPM/bpm_flowchamber_power_harness_routed.JPEG)
 
-2. Push in the [1.4a_CableEntryCap_M8Barrel.stl](../../STLs/1_FlowChamber/1.4a_CableEntryCap_M8Barrel.stl) into the slot.
+1. Push in the [1.4a_CableEntryCap_M8Barrel.stl](../../STLs/1_FlowChamber/1.4a_CableEntryCap_M8Barrel.stl) into the slot.
    - If the cable entry cap doesn't push in easily, carefully shave off 0.3-0.5mm of plastic from the [M_1a.0_FlowChamber_BPM.stl](../../STLs/1_FlowChamber/1a_BackPanelMount/StealthMax/M_1a.0_FlowChamber_BPM.stl) on both sides of the inside of the hole.
 ![BPM cable entry cap assembly](../../assets/docs/BPM/bpm_flowchamber_cable_entry_cap_assembly.JPEG)
 

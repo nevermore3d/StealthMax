@@ -1,6 +1,6 @@
 # Back Panel Mount (BPM) Main Chamber Assembly Continued
 
-These are instructions for the StealthMax (300) Smart Back Panel Mount (BPM).
+These are instructions for the StealthMax (300) Smart Back Panel Mount (BPM). The majority of this part is borrowed from the DOPM documentation but with replaced images for continuity.
 
 ## Parts Required
 
@@ -22,7 +22,7 @@ Hardware:
 - 1x PC4-M10 fitting
 - 2x HEPA filters (for Xiaomi Mijia G1)
 
-## Direct On Panel Mount (DOPM) Main Chamber Assembly Continued
+## Back Panel Mount (BPM) Main Chamber Assembly Continued
 
 1. Route the sensor-out harness through the bottom of [M_2.0_MainChamber.stl](../../STLs/2_MainChamber/StealthMax/M_2.0_MainChamber.stl) and into the center area.
 ![Main chamber sensor-out routed bottom](../../assets/docs/BPM/bpm_mainchamber_sensor_out_routed_bottom.JPEG)
@@ -32,7 +32,7 @@ Hardware:
 2. Insert the [M_2.7_IntakeSensorStackAccessLatch.stl](../../STLs/2_MainChamber/StealthMax/M_2.7_IntakeSensorStackAccessLatch.stl), [M_2.8_BowdenTubeAccessLatch.stl](../../STLs/2_MainChamber/StealthMax/M_2.8_BowdenTubeAccessLatch.stl), and [M_2.6a_PicoAccessLatch.stl](../../STLs/2_MainChamber/StealthMax/M_2.6a_PicoAccessLatch.stl), and fasten the [M_2.0_MainChamber.stl](../../STLs/2_MainChamber/StealthMax/M_2.0_MainChamber.stl) to the [M_1a.0_FlowChamber_BPM.stl](../../STLs/1_FlowChamber/1a_BackPanelMount/StealthMax/M_1a.0_FlowChamber_BPM.stl) using 12 M3x6 BHCS.
 ![Main chamber fastened](../../assets/docs/BPM/bpm_mainchamber_fastened.JPEG)
 
-1. Fasten the vent in place with M3x16
+1. Fasten the [M_1a.1_AirExhaustWheel_BPM.stl](../../STLs/1_FlowChamber/1a_BackPanelMount/StealthMax/M_1a.1_AirExhaustWheel_BPM.stl) in place with M3x16
 ![Main chamber ](../../assets/docs/BPM/bpm_mainchamber_vent_screw.JPEG)
 
 
@@ -66,6 +66,6 @@ Hardware:
 1.  STOP: Connect the StealthMax to power and continue software configuration according to the [Nevermore Controller Setup Guide](https://github.com/SanaaHamel/nevermore-controller#guide-setup). 
     1.  If one of your sensors is unplugged, better to know now than once it's mounted.
 
-2.  Once all software is configured, continue to the next step for back panel mounting.
+1. Once all software is configured, continue to the next step for back panel mounting.
 
 [Next: Back Panel Mount (BPM) Mounting >](BPM_Mounting.md)

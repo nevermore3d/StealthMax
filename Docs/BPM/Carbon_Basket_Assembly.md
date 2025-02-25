@@ -1,6 +1,6 @@
 # Carbon Basket Assembly
 
-These are instructions for the StealthMax (300) Back Panel Mount (BPM) or Direct On Panel Mount (DOPM).
+These are instructions for the StealthMax (300) Back Panel Mount (BPM) or Direct On Panel Mount (DOPM). The majority of this part is borrowed from the DOPM documentation but with replaced images for continuity.
 
 ## Parts Required
 
