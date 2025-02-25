@@ -1,13 +1,13 @@
 ## TODO"
 - fix all stl links
   - ~~BPM preparation~~
-  - lid assembly
-    - missing rotation photo
-  - main chamber assembly
-  - electronics preparation
-  - flow chamber assembly
-  - carbon basket assembly
-  - main chamber part 2
+  - ~~lid assembly~~
+    - ~~missing rotation photo~~
+  - ~~main chamber assembly~~
+  - ~~electronics preparation~~
+  - ~~flow chamber assembly~~
+  - ~~carbon basket assembly~~
+  - ~~main chamber part 2~~
   - mounting
 - add directors commentary
 - finish building 

@@ -21,11 +21,11 @@ Hardware:
 
 ![Lid Latch attach to Main Chamber](../../assets/docs/BPM/mainchamber_assembly_lidlatch_300.JPEG)
 
-3. Attach the 3mm sponge cord all around [M_2.0_MainChamber.stl](/STLs/2_MainChamber/StealthMax/M_2.0_MainChamber.stl) using a thin layer of super glue, according to the [instructions on the Wiki](https://github.com/nevermore3d/StealthMax/wiki/Assembly#lid).
+3. Attach the 3mm sponge cord all around [M_2.0_MainChamber.stl](../../STLs/2_MainChamber/StealthMax/M_2.0_MainChamber.stl) using a thin layer of super glue, according to the [instructions on the Wiki](https://github.com/nevermore3d/StealthMax/wiki/Assembly#lid).
 
 ![Sponge cord attached to Main Chamber](../../assets/docs/BPM/mainchamber_sponge_cord_300.JPEG)
 
-4. Optional: Dry-fit the [lid assembly](Lid_Assembly.md) on top of [M_2.0_MainChamber.stl](/STLs/2_MainChamber/StealthMax/M_2.0_MainChamber.stl) to ensure all latches properly close. Note that [3.2_LidFrontHinge.stl](/STLs/3_Lid/3.2_LidFrontHinge.stl) will be attached to [M_2.0_MainChamber.stl](/STLs/2_MainChamber/StealthMax/M_2.0_MainChamber.stl) in a later step.
+4. Optional: Dry-fit the [lid assembly](Lid_Assembly.md) on top of [M_2.0_MainChamber.stl](../../STLs/2_MainChamber/StealthMax/M_2.0_MainChamber.stl) to ensure all latches properly close. Note that [3.2_LidFrontHinge.stl](../../STLs/3_Lid/3.2_LidFrontHinge.stl) will be attached to [M_2.0_MainChamber.stl](../../STLs/2_MainChamber/StealthMax/M_2.0_MainChamber.stl) in a later step.
 
 ![Main Chamber dry fit](../../assets/docs/BPM/mainchamber_lid_dryfit_300.JPEG)
 

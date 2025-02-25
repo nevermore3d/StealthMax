@@ -1,11 +1,11 @@
-# Direct On Panel Mount (DOPM) Smart Electronics Preparation
+# Back Panel Mount (BPM) Smart Electronics Preparation
 
-These are instructions for the StealthMax (300) Smart Direct On Panel Mount (DOPM).
+These are instructions for the StealthMax (300) Smart Back Panel Mount (BPM).
 
 ## Parts Required
 
 Printed parts:
-- 1x [1.4a_CableEntryCap_M8Barrel.stl](/STLs/1_FlowChamber/1.4a_CableEntryCap_M8Barrel.stl)
+- 1x [1.4a_CableEntryCap_M8Barrel.stl](../../STLs/1_FlowChamber/1.4a_CableEntryCap_M8Barrel.stl)
 
 Hardware:
 - Raspberry Pi Pico W

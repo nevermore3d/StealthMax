@@ -29,6 +29,6 @@ Hardware:
 
 4. Rotate [M_3.0_LidFrame.stl](../../STLs/3_Lid/StealthMax/M_3.0_LidFrame.stl) so it becomes locked into [M_3.1_LidPanelHolder.stl](../../STLs/3_Lid/StealthMax/M_3.1_LidPanelHolder.stl).
 
-![Lid Frame insert locking](../../assets/docs/DOPM/lid_assembly_lidframe_rotate_300.png)
+![Lid Frame insert locking](../../assets/docs/BPM/lid_assembly_lidframe_rotateinplace_300.JPEG)
 
 [Next: Main Chamber Assembly >](Main_Chamber_Assembly.md)
