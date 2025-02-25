@@ -8,7 +8,6 @@
   - ~~flow chamber assembly~~
   - ~~carbon basket assembly~~
   - ~~main chamber part 2~~
-  - mounting
+  - ~~mounting~~
 - add directors commentary
-- finish building 
 - test run

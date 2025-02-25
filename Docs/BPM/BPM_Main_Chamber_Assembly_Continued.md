@@ -19,6 +19,7 @@ Hardware:
 - 16x M3x6 BHCS
 - 1x M3x10 (or M3x8) BHCS
 - 1x M3x16 SHCS
+- 1x PC4-M10 fitting
 - 2x HEPA filters (for Xiaomi Mijia G1)
 
 ## Direct On Panel Mount (DOPM) Main Chamber Assembly Continued
