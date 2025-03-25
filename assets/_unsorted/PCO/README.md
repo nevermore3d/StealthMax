@@ -2,7 +2,7 @@
 
 Note: As of yet unknown efficiency - print for feedback or improvements (within Creative Commons Attribution) to make this addon as awesome as possible!
 
-![StealthMax_PCO_Combo.png](/assets/renders/pco2.png)
+![StealthMax_PCO_Combo.png](../../assets/renders/pco2.png)
 
 # **PCO Filtration Addon: A Sun-Inspired Solution for Cleaner Air**
 
@@ -45,4 +45,4 @@ Note: These are affiliate links. Please use them to support the project at no ad
 *<sup>2</sup>*  3mm mesh cut with scissors to two pieces of approximately 128x40mm. A single 500x500mm sheet will thus be enough for _alot_ of TiO<sub>2</sub> filters<br>
 *<sup>3</sup>*  Two of these slots are made for SHCS bolts if you've got them, but BHCS will fit just as well<br>
 
-![StealthMax_PCO.png](/assets/renders/pco1.png)
+![StealthMax_PCO.png](../../assets/renders/pco1.png)
