@@ -157,7 +157,7 @@ Different printers and use cases require different solutions - choose the Stealt
 ## (2.2) Documentation
  - ### Manual
    soon<sup>tm</sup><br>
-   In the meantime, you may find the [DOPM focused installation documentation](https://github.com/nevermore3d/StealthMax/blob/main/Docs/DOPM_Preparation.md) useful.
+   In the meantime, you may find the [DOPM focused installation documentation](https://github.com/nevermore3d/StealthMax/blob/main/Docs/DOPM/DOPM_Preparation.md) useful.
 
  - ### Print Guide
    Our interactive [Print Guide](https://bit.ly/NevermoreStealthMaxPrintGuide) helps you find the parts you need to print and lets you download all the required STL files at once.
